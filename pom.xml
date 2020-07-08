@@ -1,0 +1,417 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.cdot.onem2mr3</groupId>
+	<artifactId>OneM2MTesterRelease3</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>OneM2M Tester Release-3</name>
+	<url>http://www.your.site.com/</url>
+
+
+	<repositories>
+		<repository>
+			<id>local-maven-repo</id>
+			<url>file:///${project.basedir}/utils/repo</url>
+		</repository>
+	</repositories>
+
+	<properties>
+
+		<junit.jupiter.version>5.3.0</junit.jupiter.version>
+		<junit.platform.version>1.3.0</junit.platform.version>
+		<maven-surefire-plugin.version>2.22.0</maven-surefire-plugin.version>
+		<maven-surefire-report-plugin.version>2.21.0</maven-surefire-report-plugin.version>
+		<allure-junit5.version>2.6.0</allure-junit5.version>
+		<allure-maven.version>2.8</allure-maven.version>
+		<onem2m.version>3.9</onem2m.version>
+		<java.version>1.8</java.version>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
+		<maven.compiler.source>${java.version}</maven.compiler.source>
+		<testDir>./test/java/**/*.java</testDir>
+		<project.encondig>UTF-8</project.encondig>
+		<project.build.sourceEncoding>${project.encondig}</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>${project.encondig}</project.reporting.outputEncoding>
+		<TS0018.version>2.7.0</TS0018.version>
+		<project.name>C-DOT Common Services Platform</project.name>
+		<project.version>3.3.0</project.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>${junit.jupiter.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.platform</groupId>
+			<artifactId>junit-platform-launcher</artifactId>
+			<version>${junit.platform.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-params</artifactId>
+			<version>${junit.jupiter.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest</artifactId>
+			<version>2.1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-junit5</artifactId>
+			<version>${allure-junit5.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+
+		<!-- onem2m dependencies start -->
+		<dependency>
+			<groupId>cdot.onem2m</groupId>
+			<artifactId>onem2mxsd</artifactId>
+			<version>3.11</version>
+		</dependency>
+		<dependency>
+			<groupId>cdot.onem2m</groupId>
+			<artifactId>common</artifactId>
+			<version>${onem2m.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>cdot.onem2m</groupId>
+			<artifactId>requestProcedures</artifactId>
+			<version>${onem2m.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>cdot.onem2m</groupId>
+			<artifactId>originatorActions</artifactId>
+			<version>${onem2m.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>cdot.onem2m</groupId>
+			<artifactId>httpBindingClient</artifactId>
+			<version>${onem2m.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>cdot.onem2m</groupId>
+			<artifactId>coapBindingClient</artifactId>
+			<version>${onem2m.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>cdot.onem2m</groupId>
+			<artifactId>coapClientSecurity</artifactId>
+			<version>${onem2m.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>cdot.onem2m</groupId>
+			<artifactId>saef</artifactId>
+			<version>${onem2m.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>cdot.onem2m</groupId>
+			<artifactId>BST</artifactId>
+			<version>${onem2m.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>cdot.onem2m</groupId>
+			<artifactId>mqttBinding</artifactId>
+			<version>${onem2m.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>cdot.onem2m</groupId>
+			<artifactId>mqtt</artifactId>
+			<version>${onem2m.version}</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
+			<version>4.1.1.Final</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.eclipse.californium/californium-core -->
+		<dependency>
+			<groupId>org.eclipse.californium</groupId>
+			<artifactId>californium-core</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.8</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.8</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpcore -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpcore</artifactId>
+			<version>4.4.10</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.6</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.eclipse.persistence/eclipselink -->
+		<dependency>
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>eclipselink</artifactId>
+			<version>2.7.4</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.8.1</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io Added for PORTAL_URM-->
+		<dependency>
+		    <groupId>commons-io</groupId>
+		    <artifactId>commons-io</artifactId>
+		    <version>2.6</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/net.sf.json-lib/json-lib Added for PORTAL_URM-->
+	   <dependency>
+            <groupId>net.sf.json-lib</groupId>
+            <artifactId>json-lib</artifactId>
+            <version>2.4</version>
+            <classifier>jdk15</classifier>
+		</dependency>
+	
+
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>2.9.8</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.9.8</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/javax.json/javax.json-api -->
+		<dependency>
+			<groupId>javax.json</groupId>
+			<artifactId>javax.json-api</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.glassfish/javax.json -->
+		<dependency>
+			<groupId>org.glassfish</groupId>
+			<artifactId>javax.json</artifactId>
+			<version>1.0.4</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>4.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/javax.ws.rs/javax.ws.rs-api -->
+		<dependency>
+			<groupId>javax.ws.rs</groupId>
+			<artifactId>javax.ws.rs-api</artifactId>
+			<version>2.0</version>
+		</dependency>
+
+		<!-- jetty server & servlet added for testing notification response -->
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-server</artifactId>
+			<version>9.4.3.v20170317</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-servlet</artifactId>
+			<version>9.4.3.v20170317</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.jvnet.jaxb2_commons/jaxb2-basics-runtime -->
+		<dependency>
+			<groupId>org.jvnet.jaxb2_commons</groupId>
+			<artifactId>jaxb2-basics-runtime</artifactId>
+			<version>1.11.1</version>
+		</dependency>
+		<!-- Dependency to compare complex objects in xml form -->
+		<dependency>
+			<groupId>com.thoughtworks.xstream</groupId>
+			<artifactId>xstream</artifactId>
+			<version>1.4.9</version>
+		</dependency>
+
+		<!-- onem2m dependencies end -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+			<version>5.3.0</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.141.59</version>
+		</dependency>
+		
+		<!-- SSM -->
+
+  
+ <!--    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+     
+    -->
+     <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>3.141.59</version>
+    </dependency>
+    
+		
+	</dependencies>
+
+	<build>
+
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${maven-surefire-plugin.version}</version>
+				<configuration>
+					<includes>
+						<include>**/**.java</include>
+					</includes>
+					<parallel>all</parallel>
+					<threadCount>10</threadCount>
+
+				</configuration>
+				<!-- <dependencies> -->
+				<!-- <dependency> -->
+				<!-- <groupId>org.junit.platform</groupId> -->
+				<!-- <artifactId>junit-platform-surefire-provider</artifactId> -->
+				<!-- <version>${junit.platform.version}</version> -->
+				<!-- </dependency> -->
+				<!-- <dependency> -->
+				<!-- <groupId>org.slf4j</groupId> -->
+				<!-- <artifactId>slf4j-jdk14</artifactId> -->
+				<!-- <version>1.7.5</version> -->
+				<!-- </dependency> -->
+				<!-- </dependencies> -->
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-pdf-plugin</artifactId>
+				<version>1.4</version>
+				<executions>
+					<execution>
+						<id>pdf</id>
+						<phase>site</phase>
+						<goals>
+							<goal>pdf</goal>
+						</goals>
+						<configuration>
+							<generatedSiteDirectory>${project.build.directory}/site</generatedSiteDirectory>
+							<!-- <outputDirectory>${project.basedir}/target/pdf</outputDirectory> -->
+							<!-- <workingDirectory>../target/site</workingDirectory> -->
+							<includeReports>true</includeReports>
+							<siteDirectory>${project.build.directory}/site</siteDirectory>
+
+						</configuration>
+					</execution>
+				</executions>
+				<!-- <dependencies> <dependency> <groupId>xalan</groupId> <artifactId>xalan</artifactId> 
+					<version>2.7.1</version> </dependency> <dependency> <groupId>org.codehaus.plexus</groupId> 
+					<artifactId>plexus-utils</artifactId> <version>3.3.0</version> </dependency> 
+					<dependency> <groupId>org.codehaus.plexus</groupId> <artifactId>plexus-container-default</artifactId> 
+					<version>2.1.0</version> </dependency> <dependency> <groupId>org.codehaus.plexus</groupId> 
+					<artifactId>plexus-container-default</artifactId> <version>2.1.0</version> 
+					</dependency> <dependency> <groupId>org.codehaus.plexus</groupId> <artifactId>plexus-i18n</artifactId> 
+					<version>1.0-beta-7</version> </dependency> <dependency> <groupId>org.codehaus.plexus</groupId> 
+					<artifactId>plexus-interpolation</artifactId> <version>1.21</version> </dependency> 
+					<dependency> <groupId>org.codehaus.plexus</groupId> <artifactId>plexus-utils</artifactId> 
+					<version>3.0.20</version> </dependency> </dependencies> -->
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-project-info-reports-plugin</artifactId>
+				<version>2.1.2</version>
+			</plugin>
+		</plugins>
+
+
+	</build>
+
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-site-plugin</artifactId>
+				<version>3.7.1</version>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-project-info-reports-plugin</artifactId>
+				<version>2.9</version>
+			</plugin>
+			<!-- <plugin> <artifactId>maven-project-info-reports-plugin</artifactId> 
+				<version>2.1.2</version> <reportSets> <reportSet> <reports> <report>cim</report> 
+				<report>dependencies</report> <report>dependency-convergence</report> <report>dependency-management</report> 
+				<report>index</report> <report>issue-tracking</report> <report>license</report> 
+				<report>mailing-list</report> <report>plugin-management</report> <report>plugins</report> 
+				<report>project-team</report> <report>scm</report> <report>summary</report> 
+				</reports> </reportSet> </reportSets> </plugin> -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-report-plugin</artifactId>
+				<version>${maven-surefire-plugin.version}</version>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jxr-plugin</artifactId>
+				<version>3.0.0</version>
+			</plugin>
+
+		</plugins>
+	</reporting>
+
+
+</project>

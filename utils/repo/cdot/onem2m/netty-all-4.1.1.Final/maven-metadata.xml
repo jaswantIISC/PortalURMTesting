@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>cdot.onem2m</groupId>
+  <artifactId>netty-all-4.1.1.Final</artifactId>
+  <versioning>
+    <release>3.9</release>
+    <versions>
+      <version>3.9</version>
+    </versions>
+    <lastUpdated>20190515090827</lastUpdated>
+  </versioning>
+</metadata>

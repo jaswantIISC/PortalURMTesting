@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: data.management.repository.TP_oneM2M_CSE_DMR_DEL_011
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 93.917 s <<< FAILURE! - in data.management.repository.TP_oneM2M_CSE_DMR_DEL_011
+TP_oneM2M_CSE_DMR_DEL_011_RCN_4  Time elapsed: 5.907 s  <<< FAILURE!
+java.lang.AssertionError: expected:<4000> but was:<2002>
+	at data.management.repository.TP_oneM2M_CSE_DMR_DEL_011.TP_oneM2M_CSE_DMR_DEL_011_RCN_4(TP_oneM2M_CSE_DMR_DEL_011.java:156)
+
+TP_oneM2M_CSE_DMR_DEL_011_RCN_5  Time elapsed: 5.783 s  <<< FAILURE!
+java.lang.AssertionError: expected:<4000> but was:<2002>
+	at data.management.repository.TP_oneM2M_CSE_DMR_DEL_011.TP_oneM2M_CSE_DMR_DEL_011_RCN_5(TP_oneM2M_CSE_DMR_DEL_011.java:192)
+
+TP_oneM2M_CSE_DMR_DEL_011_RCN_6  Time elapsed: 10.358 s  <<< FAILURE!
+java.lang.AssertionError: expected:<4000> but was:<2002>
+	at data.management.repository.TP_oneM2M_CSE_DMR_DEL_011.TP_oneM2M_CSE_DMR_DEL_011_RCN_6(TP_oneM2M_CSE_DMR_DEL_011.java:228)
+
+TP_oneM2M_CSE_DMR_DEL_011_RCN_8  Time elapsed: 23.803 s  <<< FAILURE!
+java.lang.AssertionError: expected:<4000> but was:<2002>
+	at data.management.repository.TP_oneM2M_CSE_DMR_DEL_011.TP_oneM2M_CSE_DMR_DEL_011_RCN_8(TP_oneM2M_CSE_DMR_DEL_011.java:300)
+

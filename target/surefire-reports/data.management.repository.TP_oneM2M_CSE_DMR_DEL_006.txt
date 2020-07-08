@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: data.management.repository.TP_oneM2M_CSE_DMR_DEL_006
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 44.026 s <<< FAILURE! - in data.management.repository.TP_oneM2M_CSE_DMR_DEL_006
+TP_oneM2M_CSE_DMR_DEL_006_TS_TSI  Time elapsed: 8.624 s  <<< ERROR!
+java.lang.NullPointerException
+	at data.management.repository.TP_oneM2M_CSE_DMR_DEL_006.TP_oneM2M_CSE_DMR_DEL_006_TS_TSI(TP_oneM2M_CSE_DMR_DEL_006.java:170)
+

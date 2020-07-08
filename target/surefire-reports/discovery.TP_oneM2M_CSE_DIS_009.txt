@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: discovery.TP_oneM2M_CSE_DIS_009
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 41.483 s <<< FAILURE! - in discovery.TP_oneM2M_CSE_DIS_009
+TP_oneM2M_CSE_DIS_009_DIS  Time elapsed: 41.133 s  <<< FAILURE!
+java.lang.AssertionError: expected:<2000> but was:<4103>
+	at discovery.TP_oneM2M_CSE_DIS_009.TP_oneM2M_CSE_DIS_009_DIS(TP_oneM2M_CSE_DIS_009.java:119)
+

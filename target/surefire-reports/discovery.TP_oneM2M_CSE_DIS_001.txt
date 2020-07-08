@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: discovery.TP_oneM2M_CSE_DIS_001
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.022 s - in discovery.TP_oneM2M_CSE_DIS_001

@@ -1,0 +1,15 @@
+nodeId=urn:dev:ops:def024-NODE24-ADN24
+kpsaId=F58D9C700531FCEF81013D50DB2069D3@cdot.in
+kpsa=D20D35997242BF62FCDEA6A9FFA5774CCA04AFCBA16627C20B3E57E05B19C4E0
+registrarCseId=/CSE001
+registrarCseBaseResourceId=R0
+registrarCseBaseResourceName=IN-CSE
+registrarIpAddress=192.168.105.196
+saefType:PSK
+httpPskSaefPort:9091
+coapPskSaefPort:5784
+mqttPort:1983
+nodeResourceId=R13
+AE-ID:S0112
+ACP-ID:null
+GROUP-ID:null

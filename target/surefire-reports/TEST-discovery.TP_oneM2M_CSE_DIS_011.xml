@@ -1,0 +1,1976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="discovery.TP_oneM2M_CSE_DIS_011" time="44.154" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/media/chaitan/official/workspaces/workspace-oxygen/CCSP_oneM2M_Tester_EXPERIMENTED/target/test-classes:/media/chaitan/official/workspaces/workspace-oxygen/CCSP_oneM2M_Tester_EXPERIMENTED/target/classes:/home/chaitan/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.3.v20170317/jetty-servlet-9.4.3.v20170317.jar:/home/chaitan/.m2/repository/javax/json/javax.json-api/1.0/javax.json-api-1.0.jar:/home/chaitan/.m2/repository/org/eclipse/persistence/eclipselink/2.7.4/eclipselink-2.7.4.jar:/home/chaitan/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar:/home/chaitan/.m2/repository/cdot/onem2m/requestProcedures/3.9/requestProcedures-3.9.jar:/home/chaitan/.m2/repository/org/junit/platform/junit-platform-commons/1.3.0/junit-platform-commons-1.3.0.jar:/home/chaitan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/home/chaitan/.m2/repository/org/opentest4j/opentest4j/1.1.0/opentest4j-1.1.0.jar:/home/chaitan/.m2/repository/io/netty/netty-all/4.1.1.Final/netty-all-4.1.1.Final.jar:/home/chaitan/.m2/repository/cdot/onem2m/onem2mxsd/3.9/onem2mxsd-3.9.jar:/home/chaitan/.m2/repository/org/apache/logging/log4j/log4j-core/2.8/log4j-core-2.8.jar:/home/chaitan/.m2/repository/org/eclipse/jetty/jetty-util/9.4.3.v20170317/jetty-util-9.4.3.v20170317.jar:/home/chaitan/.m2/repository/org/eclipse/persistence/jakarta.persistence/2.2.2/jakarta.persistence-2.2.2.jar:/home/chaitan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar:/home/chaitan/.m2/repository/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar:/home/chaitan/.m2/repository/org/junit/platform/junit-platform-engine/1.3.0/junit-platform-engine-1.3.0.jar:/home/chaitan/.m2/repository/io/qameta/allure/allure2-model-pojo/1.0-BETA6/allure2-model-pojo-1.0-BETA6.jar:/home/chaitan/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/home/chaitan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/home/chaitan/.m2/repository/cdot/onem2m/saef/3.9/saef-3.9.jar:/home/chaitan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/chaitan/.m2/repository/org/eclipse/jetty/jetty-io/9.4.3.v20170317/jetty-io-9.4.3.v20170317.jar:/home/chaitan/.m2/repository/org/apache/tika/tika-core/1.14/tika-core-1.14.jar:/home/chaitan/.m2/repository/io/qameta/allure/allure-junit-platform/2.6.0/allure-junit-platform-2.6.0.jar:/home/chaitan/.m2/repository/cdot/onem2m/httpBindingClient/3.9/httpBindingClient-3.9.jar:/home/chaitan/.m2/repository/io/qameta/allure/allure2-model-jackson/1.0-BETA6/allure2-model-jackson-1.0-BETA6.jar:/home/chaitan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar:/home/chaitan/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/chaitan/.m2/repository/org/eclipse/jetty/jetty-server/9.4.3.v20170317/jetty-server-9.4.3.v20170317.jar:/home/chaitan/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/home/chaitan/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/chaitan/.m2/repository/org/eclipse/californium/element-connector/1.0.1/element-connector-1.0.1.jar:/home/chaitan/.m2/repository/io/qameta/allure/allure-java-commons/2.6.0/allure-java-commons-2.6.0.jar:/home/chaitan/.m2/repository/org/aspectj/aspectjrt/1.8.10/aspectjrt-1.8.10.jar:/home/chaitan/.m2/repository/org/junit/platform/junit-platform-launcher/1.3.0/junit-platform-launcher-1.3.0.jar:/home/chaitan/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar:/home/chaitan/.m2/repository/org/eclipse/californium/californium-core/1.0.1/californium-core-1.0.1.jar:/home/chaitan/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.3.0/junit-jupiter-api-5.3.0.jar:/home/chaitan/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0.jar:/home/chaitan/.m2/repository/io/qameta/allure/allure-junit5/2.6.0/allure-junit5-2.6.0.jar:/home/chaitan/.m2/repository/junit/junit/4.8.1/junit-4.8.1.jar:/home/chaitan/.m2/repository/org/eclipse/jetty/jetty-http/9.4.3.v20170317/jetty-http-9.4.3.v20170317.jar:/home/chaitan/.m2/repository/io/qameta/allure/allure2-model-api/1.0-BETA6/allure2-model-api-1.0-BETA6.jar:/home/chaitan/.m2/repository/org/apache/logging/log4j/log4j-api/2.8/log4j-api-2.8.jar:/home/chaitan/.m2/repository/org/jooq/joor/0.9.6/joor-0.9.6.jar:/home/chaitan/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/chaitan/.m2/repository/org/eclipse/persistence/commonj.sdo/2.1.1/commonj.sdo-2.1.1.jar:/home/chaitan/.m2/repository/com/thoughtworks/xstream/xstream/1.4.9/xstream-1.4.9.jar:/home/chaitan/.m2/repository/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar:/home/chaitan/.m2/repository/org/jvnet/jaxb2_commons/jaxb2-basics-runtime/1.11.1/jaxb2-basics-runtime-1.11.1.jar:/home/chaitan/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/chaitan/.m2/repository/org/eclipse/jetty/jetty-security/9.4.3.v20170317/jetty-security-9.4.3.v20170317.jar:/home/chaitan/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.3.0/junit-jupiter-params-5.3.0.jar:/home/chaitan/.m2/repository/cdot/onem2m/coapClientSecurity/3.9/coapClientSecurity-3.9.jar:/home/chaitan/.m2/repository/cdot/onem2m/common/3.9/common-3.9.jar:/home/chaitan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/home/chaitan/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.3.0/junit-jupiter-engine-5.3.0.jar:/home/chaitan/.m2/repository/cdot/onem2m/originatorActions/3.9/originatorActions-3.9.jar:/home/chaitan/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.0/jackson-module-jaxb-annotations-2.7.0.jar:/home/chaitan/.m2/repository/cdot/onem2m/BST/3.9/BST-3.9.jar:/home/chaitan/.m2/repository/cdot/onem2m/coapBindingClient/3.9/coapBindingClient-3.9.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/home/chaitan/jdks/jdk-8u181-linux-x64/jdk1.8.0_181/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/media/chaitan/official/workspaces/workspace-oxygen/CCSP_oneM2M_Tester_EXPERIMENTED/target/surefire/surefirebooter6404279420965747714.jar /media/chaitan/official/workspaces/workspace-oxygen/CCSP_oneM2M_Tester_EXPERIMENTED/target/surefire 2020-02-14T10-08-14_400-jvmRun1 surefire2769126833062488552tmp surefire_08046141782517674851tmp"/>
+    <property name="surefire.test.class.path" value="/media/chaitan/official/workspaces/workspace-oxygen/CCSP_oneM2M_Tester_EXPERIMENTED/target/test-classes:/media/chaitan/official/workspaces/workspace-oxygen/CCSP_oneM2M_Tester_EXPERIMENTED/target/classes:/home/chaitan/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.3.v20170317/jetty-servlet-9.4.3.v20170317.jar:/home/chaitan/.m2/repository/javax/json/javax.json-api/1.0/javax.json-api-1.0.jar:/home/chaitan/.m2/repository/org/eclipse/persistence/eclipselink/2.7.4/eclipselink-2.7.4.jar:/home/chaitan/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar:/home/chaitan/.m2/repository/cdot/onem2m/requestProcedures/3.9/requestProcedures-3.9.jar:/home/chaitan/.m2/repository/org/junit/platform/junit-platform-commons/1.3.0/junit-platform-commons-1.3.0.jar:/home/chaitan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/home/chaitan/.m2/repository/org/opentest4j/opentest4j/1.1.0/opentest4j-1.1.0.jar:/home/chaitan/.m2/repository/io/netty/netty-all/4.1.1.Final/netty-all-4.1.1.Final.jar:/home/chaitan/.m2/repository/cdot/onem2m/onem2mxsd/3.9/onem2mxsd-3.9.jar:/home/chaitan/.m2/repository/org/apache/logging/log4j/log4j-core/2.8/log4j-core-2.8.jar:/home/chaitan/.m2/repository/org/eclipse/jetty/jetty-util/9.4.3.v20170317/jetty-util-9.4.3.v20170317.jar:/home/chaitan/.m2/repository/org/eclipse/persistence/jakarta.persistence/2.2.2/jakarta.persistence-2.2.2.jar:/home/chaitan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar:/home/chaitan/.m2/repository/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar:/home/chaitan/.m2/repository/org/junit/platform/junit-platform-engine/1.3.0/junit-platform-engine-1.3.0.jar:/home/chaitan/.m2/repository/io/qameta/allure/allure2-model-pojo/1.0-BETA6/allure2-model-pojo-1.0-BETA6.jar:/home/chaitan/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/home/chaitan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/home/chaitan/.m2/repository/cdot/onem2m/saef/3.9/saef-3.9.jar:/home/chaitan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/chaitan/.m2/repository/org/eclipse/jetty/jetty-io/9.4.3.v20170317/jetty-io-9.4.3.v20170317.jar:/home/chaitan/.m2/repository/org/apache/tika/tika-core/1.14/tika-core-1.14.jar:/home/chaitan/.m2/repository/io/qameta/allure/allure-junit-platform/2.6.0/allure-junit-platform-2.6.0.jar:/home/chaitan/.m2/repository/cdot/onem2m/httpBindingClient/3.9/httpBindingClient-3.9.jar:/home/chaitan/.m2/repository/io/qameta/allure/allure2-model-jackson/1.0-BETA6/allure2-model-jackson-1.0-BETA6.jar:/home/chaitan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar:/home/chaitan/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/chaitan/.m2/repository/org/eclipse/jetty/jetty-server/9.4.3.v20170317/jetty-server-9.4.3.v20170317.jar:/home/chaitan/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/home/chaitan/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/chaitan/.m2/repository/org/eclipse/californium/element-connector/1.0.1/element-connector-1.0.1.jar:/home/chaitan/.m2/repository/io/qameta/allure/allure-java-commons/2.6.0/allure-java-commons-2.6.0.jar:/home/chaitan/.m2/repository/org/aspectj/aspectjrt/1.8.10/aspectjrt-1.8.10.jar:/home/chaitan/.m2/repository/org/junit/platform/junit-platform-launcher/1.3.0/junit-platform-launcher-1.3.0.jar:/home/chaitan/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar:/home/chaitan/.m2/repository/org/eclipse/californium/californium-core/1.0.1/californium-core-1.0.1.jar:/home/chaitan/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.3.0/junit-jupiter-api-5.3.0.jar:/home/chaitan/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0.jar:/home/chaitan/.m2/repository/io/qameta/allure/allure-junit5/2.6.0/allure-junit5-2.6.0.jar:/home/chaitan/.m2/repository/junit/junit/4.8.1/junit-4.8.1.jar:/home/chaitan/.m2/repository/org/eclipse/jetty/jetty-http/9.4.3.v20170317/jetty-http-9.4.3.v20170317.jar:/home/chaitan/.m2/repository/io/qameta/allure/allure2-model-api/1.0-BETA6/allure2-model-api-1.0-BETA6.jar:/home/chaitan/.m2/repository/org/apache/logging/log4j/log4j-api/2.8/log4j-api-2.8.jar:/home/chaitan/.m2/repository/org/jooq/joor/0.9.6/joor-0.9.6.jar:/home/chaitan/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/chaitan/.m2/repository/org/eclipse/persistence/commonj.sdo/2.1.1/commonj.sdo-2.1.1.jar:/home/chaitan/.m2/repository/com/thoughtworks/xstream/xstream/1.4.9/xstream-1.4.9.jar:/home/chaitan/.m2/repository/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar:/home/chaitan/.m2/repository/org/jvnet/jaxb2_commons/jaxb2-basics-runtime/1.11.1/jaxb2-basics-runtime-1.11.1.jar:/home/chaitan/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/chaitan/.m2/repository/org/eclipse/jetty/jetty-security/9.4.3.v20170317/jetty-security-9.4.3.v20170317.jar:/home/chaitan/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.3.0/junit-jupiter-params-5.3.0.jar:/home/chaitan/.m2/repository/cdot/onem2m/coapClientSecurity/3.9/coapClientSecurity-3.9.jar:/home/chaitan/.m2/repository/cdot/onem2m/common/3.9/common-3.9.jar:/home/chaitan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/home/chaitan/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.3.0/junit-jupiter-engine-5.3.0.jar:/home/chaitan/.m2/repository/cdot/onem2m/originatorActions/3.9/originatorActions-3.9.jar:/home/chaitan/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.7.0/jackson-module-jaxb-annotations-2.7.0.jar:/home/chaitan/.m2/repository/cdot/onem2m/BST/3.9/BST-3.9.jar:/home/chaitan/.m2/repository/cdot/onem2m/coapBindingClient/3.9/coapBindingClient-3.9.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/chaitan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/home/chaitan/jdks/jdk-8u181-linux-x64/jdk1.8.0_181/jre"/>
+    <property name="basedir" value="/media/chaitan/official/workspaces/workspace-oxygen/CCSP_oneM2M_Tester_EXPERIMENTED"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/media/chaitan/official/workspaces/workspace-oxygen/CCSP_oneM2M_Tester_EXPERIMENTED/target/surefire/surefirebooter6404279420965747714.jar"/>
+    <property name="sun.boot.class.path" value="/home/chaitan/jdks/jdk-8u181-linux-x64/jdk1.8.0_181/jre/lib/resources.jar:/home/chaitan/jdks/jdk-8u181-linux-x64/jdk1.8.0_181/jre/lib/rt.jar:/home/chaitan/jdks/jdk-8u181-linux-x64/jdk1.8.0_181/jre/lib/sunrsasign.jar:/home/chaitan/jdks/jdk-8u181-linux-x64/jdk1.8.0_181/jre/lib/jsse.jar:/home/chaitan/jdks/jdk-8u181-linux-x64/jdk1.8.0_181/jre/lib/jce.jar:/home/chaitan/jdks/jdk-8u181-linux-x64/jdk1.8.0_181/jre/lib/charsets.jar:/home/chaitan/jdks/jdk-8u181-linux-x64/jdk1.8.0_181/jre/lib/jfr.jar:/home/chaitan/jdks/jdk-8u181-linux-x64/jdk1.8.0_181/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="user.name" value="chaitan"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-76-generic"/>
+    <property name="java.endorsed.dirs" value="/home/chaitan/jdks/jdk-8u181-linux-x64/jdk1.8.0_181/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/chaitan/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="user.dir" value="/media/chaitan/official/workspaces/workspace-oxygen/CCSP_oneM2M_Tester_EXPERIMENTED"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.ext.dirs" value="/home/chaitan/jdks/jdk-8u181-linux-x64/jdk1.8.0_181/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="TP_oneM2M_CSE_DIS_011_DIS" classname="discovery.TP_oneM2M_CSE_DIS_011" time="43.532">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: 
+	at discovery.TP_oneM2M_CSE_DIS_011.TP_oneM2M_CSE_DIS_011_DIS(TP_oneM2M_CSE_DIS_011.java:125)
+</failure>
+    <system-out><![CDATA[##########################################################################################################
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+[RestHttpsCertificateBasedClient] Inside RestHttpsCertificateBasedClient
+REST HTTP CERTIFICATE BASED CLIENT
+[EL Warning]: 2020-02-14 10:10:56.478--Ignoring attribute [desiredIdentifierResultType] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:56.478--Ignoring attribute [responseStatusCode] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:56.478--Ignoring attribute [assignedTokenIdentifiers] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:56.478--Ignoring attribute [contentStatus] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:56.478--Ignoring attribute [contentOffset] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:56.478--Ignoring attribute [authorSignReqInfo] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:56.478--Ignoring attribute [null] on class [AuthenticationProfile] as no Property was generated for it.
+OPERATION: 1
+START:  ***********oneM2MToHttpRequest:************
+
+[EL Warning]: 2020-02-14 10:10:57.566--Ignoring attribute [desiredIdentifierResultType] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:57.566--Ignoring attribute [responseStatusCode] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:57.566--Ignoring attribute [assignedTokenIdentifiers] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:57.566--Ignoring attribute [contentStatus] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:57.566--Ignoring attribute [contentOffset] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:57.566--Ignoring attribute [authorSignReqInfo] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:57.567--Ignoring attribute [null] on class [AuthenticationProfile] as no Property was generated for it.
+
+
+-----------------CLIENT SERIALIZING REQUEST------------------------------
+
+
+******PAYLOADcdot.onem2m.resource.xsd.AE@67925a08[resourceType=<null>(default), resourceID=<null>(default), parentID=<null>(default), creationTime=<null>(default), lastModifiedTime=<null>(default), labels={TemporaryLabel}, resourceName=<null>(default), accessControlPolicyIDs=<null>(default), expirationTime=<null>(default), dynamicAuthorizationConsultationIDs=<null>(default), announceTo=<null>(default), announcedAttribute=<null>(default), appName=TestAppName, appID=ra1.cdot.in.CDOTApps-xyzz, aeid=<null>(default), pointOfAccess={http://IP:PORT}, ontologyRef=<null>(default), nodeLink=KuchTohGadbadHaiDaya, requestReachability=true, contentSerialization=<null>(default), e2ESecInfo=<null>(default), m2MExtID=<null>(default), supportedReleaseVersions={2a,3}, registrationStatus=<null>(default), trackRegistrationPoints=<null>(default), sessionCapabilities=<null>(default), triggerEnable=<null>(default), activityPatternElements=<null>(default), childResource=<null>(default), container=<null>(default), group=<null>(default), accessControlPolicy=<null>(default), subscription=<null>(default), pollingChannel=<null>(default), schedule=<null>(default), semanticDescriptor=<null>(default), timeSeries=<null>(default), sgFlexContainerResource=<null>(default), semanticMashupInstance=<null>(default), multimediaSession=<null>(default), crossResourceSubscription=<null>(default), triggerRequest=<null>(default), transactionMgmt=<null>(default), transaction=<null>(default)]
+[JAXBDataMapper]Element name: {http://www.onem2m.org/xml/protocols}m2m:ae
+
+CONVERTED CONTENT: 
+{
+   "m2m:ae" : {
+      "lbl" : [ "TemporaryLabel" ],
+      "apn" : "TestAppName",
+      "api" : "ra1.cdot.in.CDOTApps-xyzz",
+      "poa" : [ "http://IP:PORT" ],
+      "nl" : "KuchTohGadbadHaiDaya",
+      "rr" : "true",
+      "srv" : [ "2a", "3" ]
+   }
+}
+ENTITY[Content-Length: 254,Chunked: false]
+CONTENT TYPE: Content-Type: application/vnd.onem2m-res+json;ty=2
+ACCEPT: Accept: application/vnd.onem2m-res+json
+TO: /R0
+URL: POST https://192.168.126.3:9090/R0 HTTP/1.1
+XM2M-RI: 3b23327f-e7d5-4f29-a579-84685b339aa8Request Expr time: 20200214T101556
+END:  ***********oneM2MToHttpRequest:************
+
+In MyX509ExtendedTrustManager java.security.KeyStore@437b4dd2
+TMS 0 sun.security.ssl.X509TrustManagerImpl@896c629
+[RestHttpsCertificateBasedClient] saefIpAddress :: 192.168.126.3
+[RestHttpsCertificateBasedClient] saefPort :: 9090
+***************************************************In printSocketInfo******************************************************************
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_RSA_WITH_AES_256_CBC_SHA256
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_256_CBC_SHA256
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_EMPTY_RENEGOTIATION_INFO_SCSV
+Supported protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+Socket class: class sun.security.ssl.SSLSocketImpl
+   Remote address = /192.168.126.3
+   Remote port = 9090
+   Local socket address = /192.168.105.196:40130
+   Local address = /192.168.105.196
+   Local port = 40130
+   Need client authentication = false
+   Want client authentication = false
+   Use client mode = true
+getsession cert [Ljava.security.cert.X509Certificate;@36ec145f chain [Ljavax.security.cert.X509Certificate;@2fe0ca8d host 192.168.126.3 int host 9090 principal CN=www.cdot1.com, OU=IT, O=CDOT, ST=DELHI, C=IN
+Cert length 2
+cert [
+[
+  Version: V3
+  Subject: CN=www.cdot1.com, OU=IT, O=CDOT, ST=DELHI, C=IN
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 29004517019861970090249101516661648002894508855361257127144308604493070880898240006625013690565773004742781432158070630900710385263392929926135814414167666189107549830611813748725096283445487209824969178317312069598648222174604320556916887110211402743395536426987381812546414679063000197914052855660875276320635566960228678906206413028088270323047900446079763662007667324264498598511459028555046846798859146535392628878444072179957534172630438883550885582907570634094459105473142810120294265847658484306881915672971023805969932400835602622239464522304160717043041486337435228498274377315173616599166026097454977849281
+  public exponent: 65537
+  Validity: [From: Thu Sep 21 11:38:29 IST 2017,
+               To: Sat Aug 15 11:38:29 IST 2020]
+  Issuer: CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN
+  SerialNumber: [    8e225f53 b2975e76]
+
+Certificate Extensions: 5
+[1]: ObjectId: 2.16.840.1.113730.1.13 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 1F 16 1D 4F 70 65 6E   53 53 4C 20 47 65 6E 65  ....OpenSSL Gene
+0010: 72 61 74 65 64 20 43 65   72 74 69 66 69 63 61 74  rated Certificat
+0020: 65                                                 e
+
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: D2 63 6D 93 21 2A DD 5A   2E 6C 4D 10 26 BB DB 1A  .cm.!*.Z.lM.&...
+0010: 16 92 51 AE                                        ..Q.
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:false
+  PathLen: undefined
+]
+
+[4]: ObjectId: 2.5.29.17 Criticality=false
+SubjectAlternativeName [
+  DNSName: //www.cdot1.com
+]
+
+[5]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 44 D1 A3 43 AA 26 F3 81   1D A8 57 31 76 02 B8 CB  D..C.&....W1v...
+0010: 78 2A 7F 4C                                        x*.L
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 20 6B FF 4B B5 91 6D D7   A7 16 AF 56 4B 5B D9 D6   k.K..m....VK[..
+0010: BE 04 95 75 AA 44 CC 53   27 DB DF F2 FA CD 1D 49  ...u.D.S'......I
+0020: 8C 5F 96 AA F1 B5 F6 3C   D3 58 23 14 94 43 36 34  ._.....<.X#..C64
+0030: 06 78 F0 47 10 E6 89 7E   0A 21 41 23 B1 C4 4E 02  .x.G.....!A#..N.
+0040: 51 5E 75 C6 90 11 D5 4E   12 4A 29 40 C5 28 C3 31  Q^u....N.J)@.(.1
+0050: 98 EA 43 71 9A 03 1B FD   AA C8 A7 8D C4 46 57 A0  ..Cq.........FW.
+0060: C9 5B 2B D3 40 33 1E 0F   32 7B 63 56 71 DB B5 24  .[+.@3..2.cVq..$
+0070: D0 E2 65 80 A9 B3 D2 01   E5 BD 06 85 F0 43 0C 4C  ..e..........C.L
+0080: A8 84 FF 17 ED 26 63 F9   93 9B E3 6A 72 DA CB CB  .....&c....jr...
+0090: 82 DE 24 1F 6B 37 6D 48   28 66 AD 8F 44 CA C6 AF  ..$.k7mH(f..D...
+00A0: 21 EF E7 75 C3 BA F8 E9   AB 85 AE A9 8B EB 13 5D  !..u...........]
+00B0: B9 9E 0D DB 18 FA BD D2   2B 13 D7 1B F1 BB 3A 07  ........+.....:.
+00C0: 2B 2A 1E EA 10 99 84 A1   33 3E 11 14 8B 8B 9D AE  +*......3>......
+00D0: 7F 5B 79 30 83 E2 9B 02   03 48 5C B7 3D 39 FB E5  .[y0.....H\.=9..
+00E0: 2F F0 50 6E 13 21 37 79   DD A4 50 C7 06 65 71 B5  /.Pn.!7y..P..eq.
+00F0: 3B 62 CE 61 10 D1 6D A6   6A A3 B7 95 25 53 18 C1  ;b.a..m.j...%S..
+
+]
+cert [
+[
+  Version: V3
+  Subject: CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 22459088573830172065138623946452075332484366282745162692509726313226519891309164111511110363852934862051207741500401493382991627703437472637634599833067960375791423692984767918062222812927419701966974532089073338703910051032950853797509200402164030458119017533268092365924307307085149200336473705378297647423575325895503749050236106621992064735898600004791035678681738321183275445986940808163844707059500468660037049520100497673107900254686995664972417850590702807315721998845831542192645807480569169068076774380267450322345578202742396677417433901702151242189123979374977218011419701197126577268149214149312724872307
+  public exponent: 65537
+  Validity: [From: Thu Sep 21 11:15:38 IST 2017,
+               To: Sat Aug 15 11:15:38 IST 2020]
+  Issuer: CN=CA ROOT, OU=IT, O=CDOT, ST=DELHI, C=IN
+  SerialNumber: [    8e225f53 b2975e75]
+
+Certificate Extensions: 5
+[1]: ObjectId: 2.16.840.1.113730.1.13 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 1F 16 1D 4F 70 65 6E   53 53 4C 20 47 65 6E 65  ....OpenSSL Gene
+0010: 72 61 74 65 64 20 43 65   72 74 69 66 69 63 61 74  rated Certificat
+0020: 65                                                 e
+
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 46 E7 4B 1F 06 3C 22 43   10 AF 7E 8E C8 45 02 7C  F.K..<"C.....E..
+0010: FE A3 13 9D                                        ....
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+[4]: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+[5]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: D2 63 6D 93 21 2A DD 5A   2E 6C 4D 10 26 BB DB 1A  .cm.!*.Z.lM.&...
+0010: 16 92 51 AE                                        ..Q.
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 9D BD F0 2A AB 34 E1 9F   46 95 9C 23 7F A1 68 A7  ...*.4..F..#..h.
+0010: 68 8E CB 51 59 1C A7 CC   85 2A 9E 4A FF F5 80 C4  h..QY....*.J....
+0020: 63 44 3E D2 3F B3 B2 E6   0F C8 E2 6E B6 C5 46 93  cD>.?......n..F.
+0030: BB 65 61 30 87 44 94 10   14 10 3F 2A 72 23 EB 42  .ea0.D....?*r#.B
+0040: F0 EC 1F AC 86 7F 95 CD   35 3A 66 B8 61 CF 97 37  ........5:f.a..7
+0050: 44 C6 B7 F4 C1 D2 8D 1A   44 1B 85 BA 86 A7 2C 01  D.......D.....,.
+0060: 2C 41 07 6C 85 73 C8 DC   AC A5 28 E4 04 C3 BA 18  ,A.l.s....(.....
+0070: 6B AF 78 A6 D4 EE 33 9F   B0 45 EF CE 4C E5 74 99  k.x...3..E..L.t.
+0080: 08 A5 BF 00 E2 BA C8 F7   3D AC 6C B5 FD 7C CA 23  ........=.l....#
+0090: FF EC DD DC 7E 17 78 AB   71 D0 C7 39 34 94 59 A2  ......x.q..94.Y.
+00A0: 05 D6 E2 01 09 B2 4C E3   DE DB 3E A5 5D 1A 5B 44  ......L...>.].[D
+00B0: 25 1A FA C5 64 9D E5 57   D9 22 CC 4D D0 23 C4 FC  %...d..W.".M.#..
+00C0: 7F 42 79 52 AB AA F0 BC   CA A1 65 20 FD CB FB 59  .ByR......e ...Y
+00D0: 4A B5 14 52 97 6D 60 FE   EA 55 61 0F 8A 83 EE 7C  J..R.m`..Ua.....
+00E0: A8 B0 3D 63 42 4C 5E BF   FF EB 91 02 81 A9 AC 0A  ..=cBL^.........
+00F0: 6B CB 5C 0F 88 F9 4E 32   F0 AC 5D 6C 5A 1B DD FD  k.\...N2..]lZ...
+
+]
+javax Cert length 2
+javaxCerts CN=www.cdot1.com, OU=IT, O=CDOT, ST=DELHI, C=IN issuer CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN
+javaxCerts CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN issuer CN=CA ROOT, OU=IT, O=CDOT, ST=DELHI, C=IN
+Session class: class sun.security.ssl.SSLSessionImpl
+   Cipher suite = TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+   Protocol = TLSv1.2
+   PeerPrincipal = CN=www.cdot1.com,OU=IT,O=CDOT,ST=DELHI,C=IN
+***************************************************End printSocketInfo******************************************************************
+Secure handshake Started
+HTTP Request Strucutre ***********
+POST https://192.168.126.3:9090/R0 HTTP/1.1httpurirequest tostring() POST https://192.168.126.3:9090/R0 HTTP/1.1
+Accept: application/vnd.onem2m-res+json
+Content-Type: application/vnd.onem2m-res+json;ty=2
+X-M2M-Origin: S011
+X-M2M-RI: 3b23327f-e7d5-4f29-a579-84685b339aa8
+X-M2M-OT: 20200214T101056
+X-M2M-RST: 20200214T101556
+X-M2M-RET: 20200214T101556
+X-M2M-OET: 20200214T101556
+X-M2M-EC: 200
+X-M2M-RVI: 2a
+ContentLength: 254
+POST > [Content-Length: 254,Chunked: false]
+POST > class org.apache.http.entity.ByteArrayEntity
+POST > Content Begins
+START: ***********httpToOneM2MResponse:************
+
+HTTP RESPONSE:HTTP/1.1 201 CREATEDContent-Location: S011 [Content-Type: application/vnd.onem2m-res+json, X-M2M-RI: 3b23327f-e7d5-4f29-a579-84685b339aa8, X-M2M-RSC: 2001, X-M2M-RVI: 2a, Content-Length: 451] [Content-Type: application/vnd.onem2m-res+json,Content-Length: 451,Chunked: false]
+Http Response content: [Content-Type: application/vnd.onem2m-res+json,Content-Length: 451,Chunked: false]
+XM2MRsc: X-M2M-RSC: 2001
+
+
+-----------------CLIENT DESERIALIZING RESPONSE------------------------------
+
+
+HttpEntity.getContent: org.apache.http.impl.io.ContentLengthInputStream@11f9f6d6
+[EL Warning]: 2020-02-14 10:10:58.3--Ignoring attribute [desiredIdentifierResultType] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:58.3--Ignoring attribute [responseStatusCode] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:58.301--Ignoring attribute [assignedTokenIdentifiers] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:58.301--Ignoring attribute [contentStatus] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:58.301--Ignoring attribute [contentOffset] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:58.301--Ignoring attribute [authorSignReqInfo] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:58.301--Ignoring attribute [null] on class [AuthenticationProfile] as no Property was generated for it.
+HttpEntity
+ Payload String{
+   "m2m:ae" : {
+      "rn" : "ae1957",
+      "ty" : 2,
+      "ri" : "S011",
+      "pi" : "R0",
+      "ct" : "20200214T101218",
+      "lt" : "20200214T101218",
+      "lbl" : [ "TemporaryLabel" ],
+      "et" : "20200314T101218",
+      "apn" : "TestAppName",
+      "api" : "ra1.cdot.in.CDOTApps-xyzz",
+      "aei" : "S011",
+      "poa" : [ "http://IP:PORT" ],
+      "nl" : "KuchTohGadbadHaiDaya",
+      "rr" : "true",
+      "srv" : [ "2a", "3" ]
+   }
+}
+CLASS DESERIALIZED: class cdot.onem2m.resource.xsd.AE
+*******SET CONTENT*********
+END: ***********httpToOneM2MResponse:************
+
+From SEND-REQUEST:  R-ID3b23327f-e7d5-4f29-a579-84685b339aa8
+M2M RESPONSE STATUS CODE: 2001
+
+Response content: cdot.onem2m.resource.xsd.AE@7a124de0[resourceType=2, resourceID=S011, parentID=R0, creationTime=20200214T101218, lastModifiedTime=20200214T101218, labels={TemporaryLabel}, resourceName=ae1957, accessControlPolicyIDs=<null>(default), expirationTime=20200314T101218, dynamicAuthorizationConsultationIDs=<null>(default), announceTo=<null>(default), announcedAttribute=<null>(default), appName=TestAppName, appID=ra1.cdot.in.CDOTApps-xyzz, aeid=S011, pointOfAccess={http://IP:PORT}, ontologyRef=<null>(default), nodeLink=KuchTohGadbadHaiDaya, requestReachability=true, contentSerialization=<null>(default), e2ESecInfo=<null>(default), m2MExtID=<null>(default), supportedReleaseVersions={2a,3}, registrationStatus=<null>(default), trackRegistrationPoints=<null>(default), sessionCapabilities=<null>(default), triggerEnable=<null>(default), activityPatternElements=<null>(default), childResource=<null>(default), container=<null>(default), group=<null>(default), accessControlPolicy=<null>(default), subscription=<null>(default), pollingChannel=<null>(default), schedule=<null>(default), semanticDescriptor=<null>(default), timeSeries=<null>(default), sgFlexContainerResource=<null>(default), semanticMashupInstance=<null>(default), multimediaSession=<null>(default), crossResourceSubscription=<null>(default), triggerRequest=<null>(default), transactionMgmt=<null>(default), transaction=<null>(default)]
+Response content classclass cdot.onem2m.resource.xsd.AE
+[RestHttpsCertificateBasedClient] Inside RestHttpsCertificateBasedClient
+REST HTTP CERTIFICATE BASED CLIENT
+[EL Warning]: 2020-02-14 10:10:58.453--Ignoring attribute [desiredIdentifierResultType] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:58.453--Ignoring attribute [responseStatusCode] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:58.453--Ignoring attribute [assignedTokenIdentifiers] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:58.453--Ignoring attribute [contentStatus] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:58.453--Ignoring attribute [contentOffset] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:58.453--Ignoring attribute [authorSignReqInfo] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:58.453--Ignoring attribute [null] on class [AuthenticationProfile] as no Property was generated for it.
+OPERATION: 1
+START:  ***********oneM2MToHttpRequest:************
+
+[EL Warning]: 2020-02-14 10:10:58.606--Ignoring attribute [desiredIdentifierResultType] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:58.606--Ignoring attribute [responseStatusCode] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:58.606--Ignoring attribute [assignedTokenIdentifiers] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:58.606--Ignoring attribute [contentStatus] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:58.606--Ignoring attribute [contentOffset] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:58.606--Ignoring attribute [authorSignReqInfo] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:58.607--Ignoring attribute [null] on class [AuthenticationProfile] as no Property was generated for it.
+
+
+-----------------CLIENT SERIALIZING REQUEST------------------------------
+
+
+******PAYLOADcdot.onem2m.resource.xsd.AccessControlPolicy@4fcb4a6e[resourceType=<null>(default), resourceID=<null>(default), parentID=<null>(default), creationTime=<null>(default), lastModifiedTime=<null>(default), labels=<null>(default), resourceName=<null>(default), expirationTime=<null>(default), announceTo=<null>(default), announcedAttribute=<null>(default), privileges=cdot.onem2m.resource.xsd.SetOfAcrs@52dd02fd[accessControlRule={cdot.onem2m.resource.xsd.AccessControlRule@7586a522[accessControlOriginators={S011}, accessControlOperations=33, accessControlContexts=<null>(default), accessControlAuthenticationFlag=<null>(default), accessControlObjectDetails=<null>(default)]}], selfPrivileges=cdot.onem2m.resource.xsd.SetOfAcrs@52dd02fd[accessControlRule={cdot.onem2m.resource.xsd.AccessControlRule@7586a522[accessControlOriginators={S011}, accessControlOperations=33, accessControlContexts=<null>(default), accessControlAuthenticationFlag=<null>(default), accessControlObjectDetails=<null>(default)]}], childResource=<null>(default), subscription=<null>(default), transaction=<null>(default)]
+[JAXBDataMapper]Element name: {http://www.onem2m.org/xml/protocols}m2m:acp
+
+CONVERTED CONTENT: 
+{
+   "m2m:acp" : {
+      "pv" : {
+         "acr" : [ {
+            "acor" : [ "S011" ],
+            "acop" : 33
+         } ]
+      },
+      "pvs" : {
+         "acr" : [ {
+            "acor" : [ "S011" ],
+            "acop" : 33
+         } ]
+      }
+   }
+}
+ENTITY[Content-Length: 255,Chunked: false]
+CONTENT TYPE: Content-Type: application/vnd.onem2m-res+json;ty=1
+ACCEPT: Accept: application/vnd.onem2m-res+json
+TO: /S011
+URL: POST https://192.168.126.3:9090/S011 HTTP/1.1
+XM2M-RI: 478692c5-689c-4054-ad1d-3592bc3746c9Request Expr time: 20200214T101558
+END:  ***********oneM2MToHttpRequest:************
+
+In MyX509ExtendedTrustManager java.security.KeyStore@1f10010d
+TMS 0 sun.security.ssl.X509TrustManagerImpl@a9da0bb
+[RestHttpsCertificateBasedClient] saefIpAddress :: 192.168.126.3
+[RestHttpsCertificateBasedClient] saefPort :: 9090
+***************************************************In printSocketInfo******************************************************************
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_RSA_WITH_AES_256_CBC_SHA256
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_256_CBC_SHA256
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_EMPTY_RENEGOTIATION_INFO_SCSV
+Supported protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+Socket class: class sun.security.ssl.SSLSocketImpl
+   Remote address = /192.168.126.3
+   Remote port = 9090
+   Local socket address = /192.168.105.196:40132
+   Local address = /192.168.105.196
+   Local port = 40132
+   Need client authentication = false
+   Want client authentication = false
+   Use client mode = true
+getsession cert [Ljava.security.cert.X509Certificate;@70028d75 chain [Ljavax.security.cert.X509Certificate;@6f85e211 host 192.168.126.3 int host 9090 principal CN=www.cdot1.com, OU=IT, O=CDOT, ST=DELHI, C=IN
+Cert length 2
+cert [
+[
+  Version: V3
+  Subject: CN=www.cdot1.com, OU=IT, O=CDOT, ST=DELHI, C=IN
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 29004517019861970090249101516661648002894508855361257127144308604493070880898240006625013690565773004742781432158070630900710385263392929926135814414167666189107549830611813748725096283445487209824969178317312069598648222174604320556916887110211402743395536426987381812546414679063000197914052855660875276320635566960228678906206413028088270323047900446079763662007667324264498598511459028555046846798859146535392628878444072179957534172630438883550885582907570634094459105473142810120294265847658484306881915672971023805969932400835602622239464522304160717043041486337435228498274377315173616599166026097454977849281
+  public exponent: 65537
+  Validity: [From: Thu Sep 21 11:38:29 IST 2017,
+               To: Sat Aug 15 11:38:29 IST 2020]
+  Issuer: CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN
+  SerialNumber: [    8e225f53 b2975e76]
+
+Certificate Extensions: 5
+[1]: ObjectId: 2.16.840.1.113730.1.13 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 1F 16 1D 4F 70 65 6E   53 53 4C 20 47 65 6E 65  ....OpenSSL Gene
+0010: 72 61 74 65 64 20 43 65   72 74 69 66 69 63 61 74  rated Certificat
+0020: 65                                                 e
+
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: D2 63 6D 93 21 2A DD 5A   2E 6C 4D 10 26 BB DB 1A  .cm.!*.Z.lM.&...
+0010: 16 92 51 AE                                        ..Q.
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:false
+  PathLen: undefined
+]
+
+[4]: ObjectId: 2.5.29.17 Criticality=false
+SubjectAlternativeName [
+  DNSName: //www.cdot1.com
+]
+
+[5]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 44 D1 A3 43 AA 26 F3 81   1D A8 57 31 76 02 B8 CB  D..C.&....W1v...
+0010: 78 2A 7F 4C                                        x*.L
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 20 6B FF 4B B5 91 6D D7   A7 16 AF 56 4B 5B D9 D6   k.K..m....VK[..
+0010: BE 04 95 75 AA 44 CC 53   27 DB DF F2 FA CD 1D 49  ...u.D.S'......I
+0020: 8C 5F 96 AA F1 B5 F6 3C   D3 58 23 14 94 43 36 34  ._.....<.X#..C64
+0030: 06 78 F0 47 10 E6 89 7E   0A 21 41 23 B1 C4 4E 02  .x.G.....!A#..N.
+0040: 51 5E 75 C6 90 11 D5 4E   12 4A 29 40 C5 28 C3 31  Q^u....N.J)@.(.1
+0050: 98 EA 43 71 9A 03 1B FD   AA C8 A7 8D C4 46 57 A0  ..Cq.........FW.
+0060: C9 5B 2B D3 40 33 1E 0F   32 7B 63 56 71 DB B5 24  .[+.@3..2.cVq..$
+0070: D0 E2 65 80 A9 B3 D2 01   E5 BD 06 85 F0 43 0C 4C  ..e..........C.L
+0080: A8 84 FF 17 ED 26 63 F9   93 9B E3 6A 72 DA CB CB  .....&c....jr...
+0090: 82 DE 24 1F 6B 37 6D 48   28 66 AD 8F 44 CA C6 AF  ..$.k7mH(f..D...
+00A0: 21 EF E7 75 C3 BA F8 E9   AB 85 AE A9 8B EB 13 5D  !..u...........]
+00B0: B9 9E 0D DB 18 FA BD D2   2B 13 D7 1B F1 BB 3A 07  ........+.....:.
+00C0: 2B 2A 1E EA 10 99 84 A1   33 3E 11 14 8B 8B 9D AE  +*......3>......
+00D0: 7F 5B 79 30 83 E2 9B 02   03 48 5C B7 3D 39 FB E5  .[y0.....H\.=9..
+00E0: 2F F0 50 6E 13 21 37 79   DD A4 50 C7 06 65 71 B5  /.Pn.!7y..P..eq.
+00F0: 3B 62 CE 61 10 D1 6D A6   6A A3 B7 95 25 53 18 C1  ;b.a..m.j...%S..
+
+]
+cert [
+[
+  Version: V3
+  Subject: CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 22459088573830172065138623946452075332484366282745162692509726313226519891309164111511110363852934862051207741500401493382991627703437472637634599833067960375791423692984767918062222812927419701966974532089073338703910051032950853797509200402164030458119017533268092365924307307085149200336473705378297647423575325895503749050236106621992064735898600004791035678681738321183275445986940808163844707059500468660037049520100497673107900254686995664972417850590702807315721998845831542192645807480569169068076774380267450322345578202742396677417433901702151242189123979374977218011419701197126577268149214149312724872307
+  public exponent: 65537
+  Validity: [From: Thu Sep 21 11:15:38 IST 2017,
+               To: Sat Aug 15 11:15:38 IST 2020]
+  Issuer: CN=CA ROOT, OU=IT, O=CDOT, ST=DELHI, C=IN
+  SerialNumber: [    8e225f53 b2975e75]
+
+Certificate Extensions: 5
+[1]: ObjectId: 2.16.840.1.113730.1.13 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 1F 16 1D 4F 70 65 6E   53 53 4C 20 47 65 6E 65  ....OpenSSL Gene
+0010: 72 61 74 65 64 20 43 65   72 74 69 66 69 63 61 74  rated Certificat
+0020: 65                                                 e
+
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 46 E7 4B 1F 06 3C 22 43   10 AF 7E 8E C8 45 02 7C  F.K..<"C.....E..
+0010: FE A3 13 9D                                        ....
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+[4]: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+[5]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: D2 63 6D 93 21 2A DD 5A   2E 6C 4D 10 26 BB DB 1A  .cm.!*.Z.lM.&...
+0010: 16 92 51 AE                                        ..Q.
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 9D BD F0 2A AB 34 E1 9F   46 95 9C 23 7F A1 68 A7  ...*.4..F..#..h.
+0010: 68 8E CB 51 59 1C A7 CC   85 2A 9E 4A FF F5 80 C4  h..QY....*.J....
+0020: 63 44 3E D2 3F B3 B2 E6   0F C8 E2 6E B6 C5 46 93  cD>.?......n..F.
+0030: BB 65 61 30 87 44 94 10   14 10 3F 2A 72 23 EB 42  .ea0.D....?*r#.B
+0040: F0 EC 1F AC 86 7F 95 CD   35 3A 66 B8 61 CF 97 37  ........5:f.a..7
+0050: 44 C6 B7 F4 C1 D2 8D 1A   44 1B 85 BA 86 A7 2C 01  D.......D.....,.
+0060: 2C 41 07 6C 85 73 C8 DC   AC A5 28 E4 04 C3 BA 18  ,A.l.s....(.....
+0070: 6B AF 78 A6 D4 EE 33 9F   B0 45 EF CE 4C E5 74 99  k.x...3..E..L.t.
+0080: 08 A5 BF 00 E2 BA C8 F7   3D AC 6C B5 FD 7C CA 23  ........=.l....#
+0090: FF EC DD DC 7E 17 78 AB   71 D0 C7 39 34 94 59 A2  ......x.q..94.Y.
+00A0: 05 D6 E2 01 09 B2 4C E3   DE DB 3E A5 5D 1A 5B 44  ......L...>.].[D
+00B0: 25 1A FA C5 64 9D E5 57   D9 22 CC 4D D0 23 C4 FC  %...d..W.".M.#..
+00C0: 7F 42 79 52 AB AA F0 BC   CA A1 65 20 FD CB FB 59  .ByR......e ...Y
+00D0: 4A B5 14 52 97 6D 60 FE   EA 55 61 0F 8A 83 EE 7C  J..R.m`..Ua.....
+00E0: A8 B0 3D 63 42 4C 5E BF   FF EB 91 02 81 A9 AC 0A  ..=cBL^.........
+00F0: 6B CB 5C 0F 88 F9 4E 32   F0 AC 5D 6C 5A 1B DD FD  k.\...N2..]lZ...
+
+]
+javax Cert length 2
+javaxCerts CN=www.cdot1.com, OU=IT, O=CDOT, ST=DELHI, C=IN issuer CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN
+javaxCerts CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN issuer CN=CA ROOT, OU=IT, O=CDOT, ST=DELHI, C=IN
+Session class: class sun.security.ssl.SSLSessionImpl
+   Cipher suite = TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+   Protocol = TLSv1.2
+   PeerPrincipal = CN=www.cdot1.com,OU=IT,O=CDOT,ST=DELHI,C=IN
+***************************************************End printSocketInfo******************************************************************
+Secure handshake Started
+HTTP Request Strucutre ***********
+POST https://192.168.126.3:9090/S011 HTTP/1.1httpurirequest tostring() POST https://192.168.126.3:9090/S011 HTTP/1.1
+Accept: application/vnd.onem2m-res+json
+Content-Type: application/vnd.onem2m-res+json;ty=1
+X-M2M-Origin: S011
+X-M2M-RI: 478692c5-689c-4054-ad1d-3592bc3746c9
+X-M2M-OT: 20200214T101058
+X-M2M-RST: 20200214T101558
+X-M2M-RET: 20200214T101558
+X-M2M-OET: 20200214T101558
+X-M2M-EC: 200
+X-M2M-RVI: 2a
+ContentLength: 255
+POST > [Content-Length: 255,Chunked: false]
+POST > class org.apache.http.entity.ByteArrayEntity
+POST > Content Begins
+START: ***********httpToOneM2MResponse:************
+
+HTTP RESPONSE:HTTP/1.1 201 CREATEDContent-Location: R1183 [Content-Type: application/vnd.onem2m-res+json, X-M2M-RI: 478692c5-689c-4054-ad1d-3592bc3746c9, X-M2M-RSC: 2001, X-M2M-RVI: 2a, Content-Length: 434] [Content-Type: application/vnd.onem2m-res+json,Content-Length: 434,Chunked: false]
+Http Response content: [Content-Type: application/vnd.onem2m-res+json,Content-Length: 434,Chunked: false]
+XM2MRsc: X-M2M-RSC: 2001
+
+
+-----------------CLIENT DESERIALIZING RESPONSE------------------------------
+
+
+HttpEntity.getContent: org.apache.http.impl.io.ContentLengthInputStream@8fa0f22
+[EL Warning]: 2020-02-14 10:10:59.311--Ignoring attribute [desiredIdentifierResultType] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:59.311--Ignoring attribute [responseStatusCode] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:59.312--Ignoring attribute [assignedTokenIdentifiers] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:59.312--Ignoring attribute [contentStatus] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:59.312--Ignoring attribute [contentOffset] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:59.312--Ignoring attribute [authorSignReqInfo] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:59.312--Ignoring attribute [null] on class [AuthenticationProfile] as no Property was generated for it.
+HttpEntity
+ Payload String{
+   "m2m:acp" : {
+      "rn" : "acp1958",
+      "ty" : 1,
+      "ri" : "R1183",
+      "pi" : "S011",
+      "ct" : "20200214T101219",
+      "lt" : "20200214T101219",
+      "et" : "20200314T101218",
+      "pv" : {
+         "acr" : [ {
+            "acor" : [ "S011" ],
+            "acop" : 33
+         } ]
+      },
+      "pvs" : {
+         "acr" : [ {
+            "acor" : [ "S011" ],
+            "acop" : 33
+         } ]
+      }
+   }
+}
+CLASS DESERIALIZED: class cdot.onem2m.resource.xsd.AccessControlPolicy
+*******SET CONTENT*********
+END: ***********httpToOneM2MResponse:************
+
+From SEND-REQUEST:  R-ID478692c5-689c-4054-ad1d-3592bc3746c9
+M2M RESPONSE STATUS CODE: 2001
+
+Response content: cdot.onem2m.resource.xsd.AccessControlPolicy@2a6bb4ad[resourceType=1, resourceID=R1183, parentID=S011, creationTime=20200214T101219, lastModifiedTime=20200214T101219, labels=<null>(default), resourceName=acp1958, expirationTime=20200314T101218, announceTo=<null>(default), announcedAttribute=<null>(default), privileges=cdot.onem2m.resource.xsd.SetOfAcrs@649cb050[accessControlRule={cdot.onem2m.resource.xsd.AccessControlRule@6844ccb3[accessControlOriginators={S011}, accessControlOperations=33, accessControlContexts=<null>(default), accessControlAuthenticationFlag=<null>(default), accessControlObjectDetails=<null>(default)]}], selfPrivileges=cdot.onem2m.resource.xsd.SetOfAcrs@4c3ecdeb[accessControlRule={cdot.onem2m.resource.xsd.AccessControlRule@3b07c61d[accessControlOriginators={S011}, accessControlOperations=33, accessControlContexts=<null>(default), accessControlAuthenticationFlag=<null>(default), accessControlObjectDetails=<null>(default)]}], childResource=<null>(default), subscription=<null>(default), transaction=<null>(default)]
+Response content classclass cdot.onem2m.resource.xsd.AccessControlPolicy
+  ################################### acpIds : [R1183]
+[RestHttpsCertificateBasedClient] Inside RestHttpsCertificateBasedClient
+REST HTTP CERTIFICATE BASED CLIENT
+[EL Warning]: 2020-02-14 10:10:59.465--Ignoring attribute [desiredIdentifierResultType] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:59.465--Ignoring attribute [responseStatusCode] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:59.465--Ignoring attribute [assignedTokenIdentifiers] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:59.465--Ignoring attribute [contentStatus] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:59.465--Ignoring attribute [contentOffset] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:59.465--Ignoring attribute [authorSignReqInfo] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:59.465--Ignoring attribute [null] on class [AuthenticationProfile] as no Property was generated for it.
+OPERATION: 1
+START:  ***********oneM2MToHttpRequest:************
+
+[EL Warning]: 2020-02-14 10:10:59.616--Ignoring attribute [desiredIdentifierResultType] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:59.616--Ignoring attribute [responseStatusCode] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:59.616--Ignoring attribute [assignedTokenIdentifiers] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:59.616--Ignoring attribute [contentStatus] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:59.616--Ignoring attribute [contentOffset] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:59.616--Ignoring attribute [authorSignReqInfo] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:10:59.616--Ignoring attribute [null] on class [AuthenticationProfile] as no Property was generated for it.
+
+
+-----------------CLIENT SERIALIZING REQUEST------------------------------
+
+
+******PAYLOADcdot.onem2m.resource.xsd.Container@5efbd167[resourceType=<null>(default), resourceID=<null>(default), parentID=<null>(default), creationTime=<null>(default), lastModifiedTime=<null>(default), labels={CONT-0.03230727336448458}, resourceName=<null>(default), accessControlPolicyIDs={R1183}, expirationTime=<null>(default), dynamicAuthorizationConsultationIDs=<null>(default), announceTo=<null>(default), announcedAttribute=<null>(default), stateTag=<null>(default), creator=<null>(default), maxNrOfInstances=<null>(default), maxByteSize=<null>(default), maxInstanceAge=<null>(default), currentNrOfInstances=<null>(default), currentByteSize=<null>(default), locationID=<null>(default), ontologyRef=<null>(default), disableRetrieval=<null>(default), childResource=<null>(default), contentInstance=<null>(default), container=<null>(default), subscription=<null>(default), semanticDescriptor=<null>(default), sgFlexContainerResource=<null>(default), timeSeries=<null>(default), transaction=<null>(default)]
+[JAXBDataMapper]Element name: {http://www.onem2m.org/xml/protocols}m2m:cnt
+
+CONVERTED CONTENT: 
+{
+   "m2m:cnt" : {
+      "lbl" : [ "CONT-0.03230727336448458" ],
+      "acpi" : [ "R1183" ]
+   }
+}
+ENTITY[Content-Length: 98,Chunked: false]
+CONTENT TYPE: Content-Type: application/vnd.onem2m-res+json;ty=3
+ACCEPT: Accept: application/vnd.onem2m-res+json
+TO: /S011
+URL: POST https://192.168.126.3:9090/S011 HTTP/1.1
+XM2M-RI: 9c83234d-98dd-40fd-b287-7ff35229cb1bRequest Expr time: 20200214T101559
+END:  ***********oneM2MToHttpRequest:************
+
+In MyX509ExtendedTrustManager java.security.KeyStore@6bdb2897
+TMS 0 sun.security.ssl.X509TrustManagerImpl@337c89d
+[RestHttpsCertificateBasedClient] saefIpAddress :: 192.168.126.3
+[RestHttpsCertificateBasedClient] saefPort :: 9090
+***************************************************In printSocketInfo******************************************************************
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_RSA_WITH_AES_256_CBC_SHA256
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_256_CBC_SHA256
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_EMPTY_RENEGOTIATION_INFO_SCSV
+Supported protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+Socket class: class sun.security.ssl.SSLSocketImpl
+   Remote address = /192.168.126.3
+   Remote port = 9090
+   Local socket address = /192.168.105.196:40134
+   Local address = /192.168.105.196
+   Local port = 40134
+   Need client authentication = false
+   Want client authentication = false
+   Use client mode = true
+getsession cert [Ljava.security.cert.X509Certificate;@5f81a74 chain [Ljavax.security.cert.X509Certificate;@375515cc host 192.168.126.3 int host 9090 principal CN=www.cdot1.com, OU=IT, O=CDOT, ST=DELHI, C=IN
+Cert length 2
+cert [
+[
+  Version: V3
+  Subject: CN=www.cdot1.com, OU=IT, O=CDOT, ST=DELHI, C=IN
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 29004517019861970090249101516661648002894508855361257127144308604493070880898240006625013690565773004742781432158070630900710385263392929926135814414167666189107549830611813748725096283445487209824969178317312069598648222174604320556916887110211402743395536426987381812546414679063000197914052855660875276320635566960228678906206413028088270323047900446079763662007667324264498598511459028555046846798859146535392628878444072179957534172630438883550885582907570634094459105473142810120294265847658484306881915672971023805969932400835602622239464522304160717043041486337435228498274377315173616599166026097454977849281
+  public exponent: 65537
+  Validity: [From: Thu Sep 21 11:38:29 IST 2017,
+               To: Sat Aug 15 11:38:29 IST 2020]
+  Issuer: CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN
+  SerialNumber: [    8e225f53 b2975e76]
+
+Certificate Extensions: 5
+[1]: ObjectId: 2.16.840.1.113730.1.13 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 1F 16 1D 4F 70 65 6E   53 53 4C 20 47 65 6E 65  ....OpenSSL Gene
+0010: 72 61 74 65 64 20 43 65   72 74 69 66 69 63 61 74  rated Certificat
+0020: 65                                                 e
+
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: D2 63 6D 93 21 2A DD 5A   2E 6C 4D 10 26 BB DB 1A  .cm.!*.Z.lM.&...
+0010: 16 92 51 AE                                        ..Q.
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:false
+  PathLen: undefined
+]
+
+[4]: ObjectId: 2.5.29.17 Criticality=false
+SubjectAlternativeName [
+  DNSName: //www.cdot1.com
+]
+
+[5]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 44 D1 A3 43 AA 26 F3 81   1D A8 57 31 76 02 B8 CB  D..C.&....W1v...
+0010: 78 2A 7F 4C                                        x*.L
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 20 6B FF 4B B5 91 6D D7   A7 16 AF 56 4B 5B D9 D6   k.K..m....VK[..
+0010: BE 04 95 75 AA 44 CC 53   27 DB DF F2 FA CD 1D 49  ...u.D.S'......I
+0020: 8C 5F 96 AA F1 B5 F6 3C   D3 58 23 14 94 43 36 34  ._.....<.X#..C64
+0030: 06 78 F0 47 10 E6 89 7E   0A 21 41 23 B1 C4 4E 02  .x.G.....!A#..N.
+0040: 51 5E 75 C6 90 11 D5 4E   12 4A 29 40 C5 28 C3 31  Q^u....N.J)@.(.1
+0050: 98 EA 43 71 9A 03 1B FD   AA C8 A7 8D C4 46 57 A0  ..Cq.........FW.
+0060: C9 5B 2B D3 40 33 1E 0F   32 7B 63 56 71 DB B5 24  .[+.@3..2.cVq..$
+0070: D0 E2 65 80 A9 B3 D2 01   E5 BD 06 85 F0 43 0C 4C  ..e..........C.L
+0080: A8 84 FF 17 ED 26 63 F9   93 9B E3 6A 72 DA CB CB  .....&c....jr...
+0090: 82 DE 24 1F 6B 37 6D 48   28 66 AD 8F 44 CA C6 AF  ..$.k7mH(f..D...
+00A0: 21 EF E7 75 C3 BA F8 E9   AB 85 AE A9 8B EB 13 5D  !..u...........]
+00B0: B9 9E 0D DB 18 FA BD D2   2B 13 D7 1B F1 BB 3A 07  ........+.....:.
+00C0: 2B 2A 1E EA 10 99 84 A1   33 3E 11 14 8B 8B 9D AE  +*......3>......
+00D0: 7F 5B 79 30 83 E2 9B 02   03 48 5C B7 3D 39 FB E5  .[y0.....H\.=9..
+00E0: 2F F0 50 6E 13 21 37 79   DD A4 50 C7 06 65 71 B5  /.Pn.!7y..P..eq.
+00F0: 3B 62 CE 61 10 D1 6D A6   6A A3 B7 95 25 53 18 C1  ;b.a..m.j...%S..
+
+]
+cert [
+[
+  Version: V3
+  Subject: CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 22459088573830172065138623946452075332484366282745162692509726313226519891309164111511110363852934862051207741500401493382991627703437472637634599833067960375791423692984767918062222812927419701966974532089073338703910051032950853797509200402164030458119017533268092365924307307085149200336473705378297647423575325895503749050236106621992064735898600004791035678681738321183275445986940808163844707059500468660037049520100497673107900254686995664972417850590702807315721998845831542192645807480569169068076774380267450322345578202742396677417433901702151242189123979374977218011419701197126577268149214149312724872307
+  public exponent: 65537
+  Validity: [From: Thu Sep 21 11:15:38 IST 2017,
+               To: Sat Aug 15 11:15:38 IST 2020]
+  Issuer: CN=CA ROOT, OU=IT, O=CDOT, ST=DELHI, C=IN
+  SerialNumber: [    8e225f53 b2975e75]
+
+Certificate Extensions: 5
+[1]: ObjectId: 2.16.840.1.113730.1.13 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 1F 16 1D 4F 70 65 6E   53 53 4C 20 47 65 6E 65  ....OpenSSL Gene
+0010: 72 61 74 65 64 20 43 65   72 74 69 66 69 63 61 74  rated Certificat
+0020: 65                                                 e
+
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 46 E7 4B 1F 06 3C 22 43   10 AF 7E 8E C8 45 02 7C  F.K..<"C.....E..
+0010: FE A3 13 9D                                        ....
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+[4]: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+[5]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: D2 63 6D 93 21 2A DD 5A   2E 6C 4D 10 26 BB DB 1A  .cm.!*.Z.lM.&...
+0010: 16 92 51 AE                                        ..Q.
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 9D BD F0 2A AB 34 E1 9F   46 95 9C 23 7F A1 68 A7  ...*.4..F..#..h.
+0010: 68 8E CB 51 59 1C A7 CC   85 2A 9E 4A FF F5 80 C4  h..QY....*.J....
+0020: 63 44 3E D2 3F B3 B2 E6   0F C8 E2 6E B6 C5 46 93  cD>.?......n..F.
+0030: BB 65 61 30 87 44 94 10   14 10 3F 2A 72 23 EB 42  .ea0.D....?*r#.B
+0040: F0 EC 1F AC 86 7F 95 CD   35 3A 66 B8 61 CF 97 37  ........5:f.a..7
+0050: 44 C6 B7 F4 C1 D2 8D 1A   44 1B 85 BA 86 A7 2C 01  D.......D.....,.
+0060: 2C 41 07 6C 85 73 C8 DC   AC A5 28 E4 04 C3 BA 18  ,A.l.s....(.....
+0070: 6B AF 78 A6 D4 EE 33 9F   B0 45 EF CE 4C E5 74 99  k.x...3..E..L.t.
+0080: 08 A5 BF 00 E2 BA C8 F7   3D AC 6C B5 FD 7C CA 23  ........=.l....#
+0090: FF EC DD DC 7E 17 78 AB   71 D0 C7 39 34 94 59 A2  ......x.q..94.Y.
+00A0: 05 D6 E2 01 09 B2 4C E3   DE DB 3E A5 5D 1A 5B 44  ......L...>.].[D
+00B0: 25 1A FA C5 64 9D E5 57   D9 22 CC 4D D0 23 C4 FC  %...d..W.".M.#..
+00C0: 7F 42 79 52 AB AA F0 BC   CA A1 65 20 FD CB FB 59  .ByR......e ...Y
+00D0: 4A B5 14 52 97 6D 60 FE   EA 55 61 0F 8A 83 EE 7C  J..R.m`..Ua.....
+00E0: A8 B0 3D 63 42 4C 5E BF   FF EB 91 02 81 A9 AC 0A  ..=cBL^.........
+00F0: 6B CB 5C 0F 88 F9 4E 32   F0 AC 5D 6C 5A 1B DD FD  k.\...N2..]lZ...
+
+]
+javax Cert length 2
+javaxCerts CN=www.cdot1.com, OU=IT, O=CDOT, ST=DELHI, C=IN issuer CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN
+javaxCerts CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN issuer CN=CA ROOT, OU=IT, O=CDOT, ST=DELHI, C=IN
+Session class: class sun.security.ssl.SSLSessionImpl
+   Cipher suite = TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+   Protocol = TLSv1.2
+   PeerPrincipal = CN=www.cdot1.com,OU=IT,O=CDOT,ST=DELHI,C=IN
+***************************************************End printSocketInfo******************************************************************
+Secure handshake Started
+HTTP Request Strucutre ***********
+POST https://192.168.126.3:9090/S011 HTTP/1.1httpurirequest tostring() POST https://192.168.126.3:9090/S011 HTTP/1.1
+Accept: application/vnd.onem2m-res+json
+Content-Type: application/vnd.onem2m-res+json;ty=3
+X-M2M-Origin: S011
+X-M2M-RI: 9c83234d-98dd-40fd-b287-7ff35229cb1b
+X-M2M-OT: 20200214T101059
+X-M2M-RST: 20200214T101559
+X-M2M-RET: 20200214T101559
+X-M2M-OET: 20200214T101559
+X-M2M-EC: 200
+X-M2M-RVI: 2a
+ContentLength: 98
+POST > [Content-Length: 98,Chunked: false]
+POST > class org.apache.http.entity.ByteArrayEntity
+POST > Content Begins
+START: ***********httpToOneM2MResponse:************
+
+HTTP RESPONSE:HTTP/1.1 201 CREATEDContent-Location: R1184 [Content-Type: application/vnd.onem2m-res+json, X-M2M-RI: 9c83234d-98dd-40fd-b287-7ff35229cb1b, X-M2M-RSC: 2001, X-M2M-RVI: 2a, Content-Length: 411] [Content-Type: application/vnd.onem2m-res+json,Content-Length: 411,Chunked: false]
+Http Response content: [Content-Type: application/vnd.onem2m-res+json,Content-Length: 411,Chunked: false]
+XM2MRsc: X-M2M-RSC: 2001
+
+
+-----------------CLIENT DESERIALIZING RESPONSE------------------------------
+
+
+HttpEntity.getContent: org.apache.http.impl.io.ContentLengthInputStream@a1b409b
+[EL Warning]: 2020-02-14 10:11:00.342--Ignoring attribute [desiredIdentifierResultType] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:00.343--Ignoring attribute [responseStatusCode] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:00.343--Ignoring attribute [assignedTokenIdentifiers] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:00.343--Ignoring attribute [contentStatus] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:00.343--Ignoring attribute [contentOffset] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:00.343--Ignoring attribute [authorSignReqInfo] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:00.343--Ignoring attribute [null] on class [AuthenticationProfile] as no Property was generated for it.
+HttpEntity
+ Payload String{
+   "m2m:cnt" : {
+      "rn" : "cnt1959",
+      "ty" : 3,
+      "ri" : "R1184",
+      "pi" : "S011",
+      "ct" : "20200214T101220",
+      "lt" : "20200214T101220",
+      "lbl" : [ "CONT-0.03230727336448458" ],
+      "acpi" : [ "R1183" ],
+      "et" : "20200314T101218",
+      "st" : 0,
+      "cr" : "S011",
+      "mni" : 20,
+      "mbs" : 1048576,
+      "mia" : 864000,
+      "cni" : 0,
+      "cbs" : 0
+   }
+}
+CLASS DESERIALIZED: class cdot.onem2m.resource.xsd.Container
+*******SET CONTENT*********
+END: ***********httpToOneM2MResponse:************
+
+From SEND-REQUEST:  R-ID9c83234d-98dd-40fd-b287-7ff35229cb1b
+M2M RESPONSE STATUS CODE: 2001
+
+Response content: cdot.onem2m.resource.xsd.Container@2e82df42[resourceType=3, resourceID=R1184, parentID=S011, creationTime=20200214T101220, lastModifiedTime=20200214T101220, labels={CONT-0.03230727336448458}, resourceName=cnt1959, accessControlPolicyIDs={R1183}, expirationTime=20200314T101218, dynamicAuthorizationConsultationIDs=<null>(default), announceTo=<null>(default), announcedAttribute=<null>(default), stateTag=0, creator=S011, maxNrOfInstances=20, maxByteSize=1048576, maxInstanceAge=864000, currentNrOfInstances=0, currentByteSize=0, locationID=<null>(default), ontologyRef=<null>(default), disableRetrieval=<null>(default), childResource=<null>(default), contentInstance=<null>(default), container=<null>(default), subscription=<null>(default), semanticDescriptor=<null>(default), sgFlexContainerResource=<null>(default), timeSeries=<null>(default), transaction=<null>(default)]
+Response content classclass cdot.onem2m.resource.xsd.Container
+ ################################### content : DayaYehDarwajaToDo
+[RestHttpsCertificateBasedClient] Inside RestHttpsCertificateBasedClient
+REST HTTP CERTIFICATE BASED CLIENT
+[EL Warning]: 2020-02-14 10:11:00.494--Ignoring attribute [desiredIdentifierResultType] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:00.494--Ignoring attribute [responseStatusCode] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:00.494--Ignoring attribute [assignedTokenIdentifiers] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:00.494--Ignoring attribute [contentStatus] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:00.494--Ignoring attribute [contentOffset] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:00.494--Ignoring attribute [authorSignReqInfo] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:00.494--Ignoring attribute [null] on class [AuthenticationProfile] as no Property was generated for it.
+OPERATION: 1
+START:  ***********oneM2MToHttpRequest:************
+
+[EL Warning]: 2020-02-14 10:11:00.644--Ignoring attribute [desiredIdentifierResultType] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:00.644--Ignoring attribute [responseStatusCode] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:00.644--Ignoring attribute [assignedTokenIdentifiers] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:00.644--Ignoring attribute [contentStatus] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:00.644--Ignoring attribute [contentOffset] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:00.644--Ignoring attribute [authorSignReqInfo] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:00.644--Ignoring attribute [null] on class [AuthenticationProfile] as no Property was generated for it.
+
+
+-----------------CLIENT SERIALIZING REQUEST------------------------------
+
+
+******PAYLOADcdot.onem2m.resource.xsd.ContentInstance@d43de9a[resourceType=<null>(default), resourceID=<null>(default), parentID=<null>(default), creationTime=<null>(default), lastModifiedTime=<null>(default), labels=<null>(default), resourceName=<null>(default), expirationTime=<null>(default), announceTo=<null>(default), announcedAttribute=<null>(default), stateTag=<null>(default), creator=<null>(default), contentInfo=<null>(default), contentSize=<null>(default), contentRef=<null>(default), ontologyRef=<null>(default), content=DayaYehDarwajaToDo, childResource=<null>(default), semanticDescriptor=<null>(default), transaction=<null>(default)]
+[JAXBDataMapper]Element name: {http://www.onem2m.org/xml/protocols}m2m:cin
+
+CONVERTED CONTENT: 
+{
+   "m2m:cin" : {
+      "con" : "DayaYehDarwajaToDo"
+   }
+}
+ENTITY[Content-Length: 60,Chunked: false]
+CONTENT TYPE: Content-Type: application/vnd.onem2m-res+json;ty=4
+ACCEPT: Accept: application/vnd.onem2m-res+json
+TO: /R1184
+URL: POST https://192.168.126.3:9090/R1184 HTTP/1.1
+XM2M-RI: 5ba80f2c-871c-41c6-88de-fdf92075160aRequest Expr time: 20200214T101600
+END:  ***********oneM2MToHttpRequest:************
+
+In MyX509ExtendedTrustManager java.security.KeyStore@7bbccf5
+TMS 0 sun.security.ssl.X509TrustManagerImpl@3f9a77a2
+[RestHttpsCertificateBasedClient] saefIpAddress :: 192.168.126.3
+[RestHttpsCertificateBasedClient] saefPort :: 9090
+***************************************************In printSocketInfo******************************************************************
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_RSA_WITH_AES_256_CBC_SHA256
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_256_CBC_SHA256
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_EMPTY_RENEGOTIATION_INFO_SCSV
+Supported protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+Socket class: class sun.security.ssl.SSLSocketImpl
+   Remote address = /192.168.126.3
+   Remote port = 9090
+   Local socket address = /192.168.105.196:40136
+   Local address = /192.168.105.196
+   Local port = 40136
+   Need client authentication = false
+   Want client authentication = false
+   Use client mode = true
+getsession cert [Ljava.security.cert.X509Certificate;@5fca513b chain [Ljavax.security.cert.X509Certificate;@64ff253 host 192.168.126.3 int host 9090 principal CN=www.cdot1.com, OU=IT, O=CDOT, ST=DELHI, C=IN
+Cert length 2
+cert [
+[
+  Version: V3
+  Subject: CN=www.cdot1.com, OU=IT, O=CDOT, ST=DELHI, C=IN
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 29004517019861970090249101516661648002894508855361257127144308604493070880898240006625013690565773004742781432158070630900710385263392929926135814414167666189107549830611813748725096283445487209824969178317312069598648222174604320556916887110211402743395536426987381812546414679063000197914052855660875276320635566960228678906206413028088270323047900446079763662007667324264498598511459028555046846798859146535392628878444072179957534172630438883550885582907570634094459105473142810120294265847658484306881915672971023805969932400835602622239464522304160717043041486337435228498274377315173616599166026097454977849281
+  public exponent: 65537
+  Validity: [From: Thu Sep 21 11:38:29 IST 2017,
+               To: Sat Aug 15 11:38:29 IST 2020]
+  Issuer: CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN
+  SerialNumber: [    8e225f53 b2975e76]
+
+Certificate Extensions: 5
+[1]: ObjectId: 2.16.840.1.113730.1.13 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 1F 16 1D 4F 70 65 6E   53 53 4C 20 47 65 6E 65  ....OpenSSL Gene
+0010: 72 61 74 65 64 20 43 65   72 74 69 66 69 63 61 74  rated Certificat
+0020: 65                                                 e
+
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: D2 63 6D 93 21 2A DD 5A   2E 6C 4D 10 26 BB DB 1A  .cm.!*.Z.lM.&...
+0010: 16 92 51 AE                                        ..Q.
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:false
+  PathLen: undefined
+]
+
+[4]: ObjectId: 2.5.29.17 Criticality=false
+SubjectAlternativeName [
+  DNSName: //www.cdot1.com
+]
+
+[5]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 44 D1 A3 43 AA 26 F3 81   1D A8 57 31 76 02 B8 CB  D..C.&....W1v...
+0010: 78 2A 7F 4C                                        x*.L
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 20 6B FF 4B B5 91 6D D7   A7 16 AF 56 4B 5B D9 D6   k.K..m....VK[..
+0010: BE 04 95 75 AA 44 CC 53   27 DB DF F2 FA CD 1D 49  ...u.D.S'......I
+0020: 8C 5F 96 AA F1 B5 F6 3C   D3 58 23 14 94 43 36 34  ._.....<.X#..C64
+0030: 06 78 F0 47 10 E6 89 7E   0A 21 41 23 B1 C4 4E 02  .x.G.....!A#..N.
+0040: 51 5E 75 C6 90 11 D5 4E   12 4A 29 40 C5 28 C3 31  Q^u....N.J)@.(.1
+0050: 98 EA 43 71 9A 03 1B FD   AA C8 A7 8D C4 46 57 A0  ..Cq.........FW.
+0060: C9 5B 2B D3 40 33 1E 0F   32 7B 63 56 71 DB B5 24  .[+.@3..2.cVq..$
+0070: D0 E2 65 80 A9 B3 D2 01   E5 BD 06 85 F0 43 0C 4C  ..e..........C.L
+0080: A8 84 FF 17 ED 26 63 F9   93 9B E3 6A 72 DA CB CB  .....&c....jr...
+0090: 82 DE 24 1F 6B 37 6D 48   28 66 AD 8F 44 CA C6 AF  ..$.k7mH(f..D...
+00A0: 21 EF E7 75 C3 BA F8 E9   AB 85 AE A9 8B EB 13 5D  !..u...........]
+00B0: B9 9E 0D DB 18 FA BD D2   2B 13 D7 1B F1 BB 3A 07  ........+.....:.
+00C0: 2B 2A 1E EA 10 99 84 A1   33 3E 11 14 8B 8B 9D AE  +*......3>......
+00D0: 7F 5B 79 30 83 E2 9B 02   03 48 5C B7 3D 39 FB E5  .[y0.....H\.=9..
+00E0: 2F F0 50 6E 13 21 37 79   DD A4 50 C7 06 65 71 B5  /.Pn.!7y..P..eq.
+00F0: 3B 62 CE 61 10 D1 6D A6   6A A3 B7 95 25 53 18 C1  ;b.a..m.j...%S..
+
+]
+cert [
+[
+  Version: V3
+  Subject: CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 22459088573830172065138623946452075332484366282745162692509726313226519891309164111511110363852934862051207741500401493382991627703437472637634599833067960375791423692984767918062222812927419701966974532089073338703910051032950853797509200402164030458119017533268092365924307307085149200336473705378297647423575325895503749050236106621992064735898600004791035678681738321183275445986940808163844707059500468660037049520100497673107900254686995664972417850590702807315721998845831542192645807480569169068076774380267450322345578202742396677417433901702151242189123979374977218011419701197126577268149214149312724872307
+  public exponent: 65537
+  Validity: [From: Thu Sep 21 11:15:38 IST 2017,
+               To: Sat Aug 15 11:15:38 IST 2020]
+  Issuer: CN=CA ROOT, OU=IT, O=CDOT, ST=DELHI, C=IN
+  SerialNumber: [    8e225f53 b2975e75]
+
+Certificate Extensions: 5
+[1]: ObjectId: 2.16.840.1.113730.1.13 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 1F 16 1D 4F 70 65 6E   53 53 4C 20 47 65 6E 65  ....OpenSSL Gene
+0010: 72 61 74 65 64 20 43 65   72 74 69 66 69 63 61 74  rated Certificat
+0020: 65                                                 e
+
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 46 E7 4B 1F 06 3C 22 43   10 AF 7E 8E C8 45 02 7C  F.K..<"C.....E..
+0010: FE A3 13 9D                                        ....
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+[4]: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+[5]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: D2 63 6D 93 21 2A DD 5A   2E 6C 4D 10 26 BB DB 1A  .cm.!*.Z.lM.&...
+0010: 16 92 51 AE                                        ..Q.
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 9D BD F0 2A AB 34 E1 9F   46 95 9C 23 7F A1 68 A7  ...*.4..F..#..h.
+0010: 68 8E CB 51 59 1C A7 CC   85 2A 9E 4A FF F5 80 C4  h..QY....*.J....
+0020: 63 44 3E D2 3F B3 B2 E6   0F C8 E2 6E B6 C5 46 93  cD>.?......n..F.
+0030: BB 65 61 30 87 44 94 10   14 10 3F 2A 72 23 EB 42  .ea0.D....?*r#.B
+0040: F0 EC 1F AC 86 7F 95 CD   35 3A 66 B8 61 CF 97 37  ........5:f.a..7
+0050: 44 C6 B7 F4 C1 D2 8D 1A   44 1B 85 BA 86 A7 2C 01  D.......D.....,.
+0060: 2C 41 07 6C 85 73 C8 DC   AC A5 28 E4 04 C3 BA 18  ,A.l.s....(.....
+0070: 6B AF 78 A6 D4 EE 33 9F   B0 45 EF CE 4C E5 74 99  k.x...3..E..L.t.
+0080: 08 A5 BF 00 E2 BA C8 F7   3D AC 6C B5 FD 7C CA 23  ........=.l....#
+0090: FF EC DD DC 7E 17 78 AB   71 D0 C7 39 34 94 59 A2  ......x.q..94.Y.
+00A0: 05 D6 E2 01 09 B2 4C E3   DE DB 3E A5 5D 1A 5B 44  ......L...>.].[D
+00B0: 25 1A FA C5 64 9D E5 57   D9 22 CC 4D D0 23 C4 FC  %...d..W.".M.#..
+00C0: 7F 42 79 52 AB AA F0 BC   CA A1 65 20 FD CB FB 59  .ByR......e ...Y
+00D0: 4A B5 14 52 97 6D 60 FE   EA 55 61 0F 8A 83 EE 7C  J..R.m`..Ua.....
+00E0: A8 B0 3D 63 42 4C 5E BF   FF EB 91 02 81 A9 AC 0A  ..=cBL^.........
+00F0: 6B CB 5C 0F 88 F9 4E 32   F0 AC 5D 6C 5A 1B DD FD  k.\...N2..]lZ...
+
+]
+javax Cert length 2
+javaxCerts CN=www.cdot1.com, OU=IT, O=CDOT, ST=DELHI, C=IN issuer CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN
+javaxCerts CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN issuer CN=CA ROOT, OU=IT, O=CDOT, ST=DELHI, C=IN
+Session class: class sun.security.ssl.SSLSessionImpl
+   Cipher suite = TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+   Protocol = TLSv1.2
+   PeerPrincipal = CN=www.cdot1.com,OU=IT,O=CDOT,ST=DELHI,C=IN
+***************************************************End printSocketInfo******************************************************************
+Secure handshake Started
+HTTP Request Strucutre ***********
+POST https://192.168.126.3:9090/R1184 HTTP/1.1httpurirequest tostring() POST https://192.168.126.3:9090/R1184 HTTP/1.1
+Accept: application/vnd.onem2m-res+json
+Content-Type: application/vnd.onem2m-res+json;ty=4
+X-M2M-Origin: S011
+X-M2M-RI: 5ba80f2c-871c-41c6-88de-fdf92075160a
+X-M2M-OT: 20200214T101100
+X-M2M-RST: 20200214T101600
+X-M2M-RET: 20200214T101600
+X-M2M-OET: 20200214T101600
+X-M2M-EC: 200
+X-M2M-RVI: 2a
+ContentLength: 60
+POST > [Content-Length: 60,Chunked: false]
+POST > class org.apache.http.entity.ByteArrayEntity
+POST > Content Begins
+START: ***********httpToOneM2MResponse:************
+
+HTTP RESPONSE:HTTP/1.1 201 CREATEDContent-Location: D99 [Content-Type: application/vnd.onem2m-res+json, X-M2M-RI: 5ba80f2c-871c-41c6-88de-fdf92075160a, X-M2M-RSC: 2001, X-M2M-RVI: 2a, Content-Length: 292] [Content-Type: application/vnd.onem2m-res+json,Content-Length: 292,Chunked: false]
+Http Response content: [Content-Type: application/vnd.onem2m-res+json,Content-Length: 292,Chunked: false]
+XM2MRsc: X-M2M-RSC: 2001
+
+
+-----------------CLIENT DESERIALIZING RESPONSE------------------------------
+
+
+HttpEntity.getContent: org.apache.http.impl.io.ContentLengthInputStream@6a04a25f
+[EL Warning]: 2020-02-14 10:11:01.35--Ignoring attribute [desiredIdentifierResultType] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:01.35--Ignoring attribute [responseStatusCode] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:01.35--Ignoring attribute [assignedTokenIdentifiers] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:01.35--Ignoring attribute [contentStatus] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:01.35--Ignoring attribute [contentOffset] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:01.35--Ignoring attribute [authorSignReqInfo] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:01.35--Ignoring attribute [null] on class [AuthenticationProfile] as no Property was generated for it.
+HttpEntity
+ Payload String{
+   "m2m:cin" : {
+      "rn" : "cin1960",
+      "ty" : 4,
+      "ri" : "D99",
+      "pi" : "R1184",
+      "ct" : "20200214T101221",
+      "lt" : "20200214T101221",
+      "et" : "20200314T101218",
+      "st" : 1,
+      "cr" : "S011",
+      "cs" : 80,
+      "con" : "DayaYehDarwajaToDo"
+   }
+}
+CLASS DESERIALIZED: class cdot.onem2m.resource.xsd.ContentInstance
+*******SET CONTENT*********
+END: ***********httpToOneM2MResponse:************
+
+From SEND-REQUEST:  R-ID5ba80f2c-871c-41c6-88de-fdf92075160a
+M2M RESPONSE STATUS CODE: 2001
+
+Response content: cdot.onem2m.resource.xsd.ContentInstance@437839d1[resourceType=4, resourceID=D99, parentID=R1184, creationTime=20200214T101221, lastModifiedTime=20200214T101221, labels=<null>(default), resourceName=cin1960, expirationTime=20200314T101218, announceTo=<null>(default), announcedAttribute=<null>(default), stateTag=1, creator=S011, contentInfo=<null>(default), contentSize=80, contentRef=<null>(default), ontologyRef=<null>(default), content=DayaYehDarwajaToDo, childResource=<null>(default), semanticDescriptor=<null>(default), transaction=<null>(default)]
+Response content classclass cdot.onem2m.resource.xsd.ContentInstance
+[RestHttpsCertificateBasedClient] Inside RestHttpsCertificateBasedClient
+REST HTTP CERTIFICATE BASED CLIENT
+[EL Warning]: 2020-02-14 10:11:01.503--Ignoring attribute [desiredIdentifierResultType] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:01.503--Ignoring attribute [responseStatusCode] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:01.503--Ignoring attribute [assignedTokenIdentifiers] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:01.503--Ignoring attribute [contentStatus] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:01.504--Ignoring attribute [contentOffset] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:01.504--Ignoring attribute [authorSignReqInfo] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:01.504--Ignoring attribute [null] on class [AuthenticationProfile] as no Property was generated for it.
+OPERATION: 2
+START:  ***********oneM2MToHttpRequest:************
+
+[EL Warning]: 2020-02-14 10:11:02.113--Ignoring attribute [desiredIdentifierResultType] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:02.113--Ignoring attribute [responseStatusCode] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:02.113--Ignoring attribute [assignedTokenIdentifiers] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:02.113--Ignoring attribute [contentStatus] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:02.113--Ignoring attribute [contentOffset] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:02.113--Ignoring attribute [authorSignReqInfo] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:02.113--Ignoring attribute [null] on class [AuthenticationProfile] as no Property was generated for it.
+
+
+-----------------CLIENT SERIALIZING REQUEST------------------------------
+
+
+TO: /IN-CSE/ae1957/cnt1959
+URL: GET https://192.168.126.3:9090/IN-CSE/ae1957/cnt1959?ty=4&fu=1 HTTP/1.1
+XM2M-RI: 3ae3747c-bba3-42ec-aeef-468e99bfeb0bRequest Expr time: 20200214T101601
+END:  ***********oneM2MToHttpRequest:************
+
+In MyX509ExtendedTrustManager java.security.KeyStore@12a29c2a
+TMS 0 sun.security.ssl.X509TrustManagerImpl@403848a9
+[RestHttpsCertificateBasedClient] saefIpAddress :: 192.168.126.3
+[RestHttpsCertificateBasedClient] saefPort :: 9090
+***************************************************In printSocketInfo******************************************************************
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_RSA_WITH_AES_256_CBC_SHA256
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_256_CBC_SHA256
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_EMPTY_RENEGOTIATION_INFO_SCSV
+Supported protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+Socket class: class sun.security.ssl.SSLSocketImpl
+   Remote address = /192.168.126.3
+   Remote port = 9090
+   Local socket address = /192.168.105.196:40140
+   Local address = /192.168.105.196
+   Local port = 40140
+   Need client authentication = false
+   Want client authentication = false
+   Use client mode = true
+getsession cert [Ljava.security.cert.X509Certificate;@5233ecdc chain [Ljavax.security.cert.X509Certificate;@54f6697c host 192.168.126.3 int host 9090 principal CN=www.cdot1.com, OU=IT, O=CDOT, ST=DELHI, C=IN
+Cert length 2
+cert [
+[
+  Version: V3
+  Subject: CN=www.cdot1.com, OU=IT, O=CDOT, ST=DELHI, C=IN
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 29004517019861970090249101516661648002894508855361257127144308604493070880898240006625013690565773004742781432158070630900710385263392929926135814414167666189107549830611813748725096283445487209824969178317312069598648222174604320556916887110211402743395536426987381812546414679063000197914052855660875276320635566960228678906206413028088270323047900446079763662007667324264498598511459028555046846798859146535392628878444072179957534172630438883550885582907570634094459105473142810120294265847658484306881915672971023805969932400835602622239464522304160717043041486337435228498274377315173616599166026097454977849281
+  public exponent: 65537
+  Validity: [From: Thu Sep 21 11:38:29 IST 2017,
+               To: Sat Aug 15 11:38:29 IST 2020]
+  Issuer: CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN
+  SerialNumber: [    8e225f53 b2975e76]
+
+Certificate Extensions: 5
+[1]: ObjectId: 2.16.840.1.113730.1.13 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 1F 16 1D 4F 70 65 6E   53 53 4C 20 47 65 6E 65  ....OpenSSL Gene
+0010: 72 61 74 65 64 20 43 65   72 74 69 66 69 63 61 74  rated Certificat
+0020: 65                                                 e
+
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: D2 63 6D 93 21 2A DD 5A   2E 6C 4D 10 26 BB DB 1A  .cm.!*.Z.lM.&...
+0010: 16 92 51 AE                                        ..Q.
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:false
+  PathLen: undefined
+]
+
+[4]: ObjectId: 2.5.29.17 Criticality=false
+SubjectAlternativeName [
+  DNSName: //www.cdot1.com
+]
+
+[5]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 44 D1 A3 43 AA 26 F3 81   1D A8 57 31 76 02 B8 CB  D..C.&....W1v...
+0010: 78 2A 7F 4C                                        x*.L
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 20 6B FF 4B B5 91 6D D7   A7 16 AF 56 4B 5B D9 D6   k.K..m....VK[..
+0010: BE 04 95 75 AA 44 CC 53   27 DB DF F2 FA CD 1D 49  ...u.D.S'......I
+0020: 8C 5F 96 AA F1 B5 F6 3C   D3 58 23 14 94 43 36 34  ._.....<.X#..C64
+0030: 06 78 F0 47 10 E6 89 7E   0A 21 41 23 B1 C4 4E 02  .x.G.....!A#..N.
+0040: 51 5E 75 C6 90 11 D5 4E   12 4A 29 40 C5 28 C3 31  Q^u....N.J)@.(.1
+0050: 98 EA 43 71 9A 03 1B FD   AA C8 A7 8D C4 46 57 A0  ..Cq.........FW.
+0060: C9 5B 2B D3 40 33 1E 0F   32 7B 63 56 71 DB B5 24  .[+.@3..2.cVq..$
+0070: D0 E2 65 80 A9 B3 D2 01   E5 BD 06 85 F0 43 0C 4C  ..e..........C.L
+0080: A8 84 FF 17 ED 26 63 F9   93 9B E3 6A 72 DA CB CB  .....&c....jr...
+0090: 82 DE 24 1F 6B 37 6D 48   28 66 AD 8F 44 CA C6 AF  ..$.k7mH(f..D...
+00A0: 21 EF E7 75 C3 BA F8 E9   AB 85 AE A9 8B EB 13 5D  !..u...........]
+00B0: B9 9E 0D DB 18 FA BD D2   2B 13 D7 1B F1 BB 3A 07  ........+.....:.
+00C0: 2B 2A 1E EA 10 99 84 A1   33 3E 11 14 8B 8B 9D AE  +*......3>......
+00D0: 7F 5B 79 30 83 E2 9B 02   03 48 5C B7 3D 39 FB E5  .[y0.....H\.=9..
+00E0: 2F F0 50 6E 13 21 37 79   DD A4 50 C7 06 65 71 B5  /.Pn.!7y..P..eq.
+00F0: 3B 62 CE 61 10 D1 6D A6   6A A3 B7 95 25 53 18 C1  ;b.a..m.j...%S..
+
+]
+cert [
+[
+  Version: V3
+  Subject: CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 22459088573830172065138623946452075332484366282745162692509726313226519891309164111511110363852934862051207741500401493382991627703437472637634599833067960375791423692984767918062222812927419701966974532089073338703910051032950853797509200402164030458119017533268092365924307307085149200336473705378297647423575325895503749050236106621992064735898600004791035678681738321183275445986940808163844707059500468660037049520100497673107900254686995664972417850590702807315721998845831542192645807480569169068076774380267450322345578202742396677417433901702151242189123979374977218011419701197126577268149214149312724872307
+  public exponent: 65537
+  Validity: [From: Thu Sep 21 11:15:38 IST 2017,
+               To: Sat Aug 15 11:15:38 IST 2020]
+  Issuer: CN=CA ROOT, OU=IT, O=CDOT, ST=DELHI, C=IN
+  SerialNumber: [    8e225f53 b2975e75]
+
+Certificate Extensions: 5
+[1]: ObjectId: 2.16.840.1.113730.1.13 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 1F 16 1D 4F 70 65 6E   53 53 4C 20 47 65 6E 65  ....OpenSSL Gene
+0010: 72 61 74 65 64 20 43 65   72 74 69 66 69 63 61 74  rated Certificat
+0020: 65                                                 e
+
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 46 E7 4B 1F 06 3C 22 43   10 AF 7E 8E C8 45 02 7C  F.K..<"C.....E..
+0010: FE A3 13 9D                                        ....
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+[4]: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+[5]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: D2 63 6D 93 21 2A DD 5A   2E 6C 4D 10 26 BB DB 1A  .cm.!*.Z.lM.&...
+0010: 16 92 51 AE                                        ..Q.
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 9D BD F0 2A AB 34 E1 9F   46 95 9C 23 7F A1 68 A7  ...*.4..F..#..h.
+0010: 68 8E CB 51 59 1C A7 CC   85 2A 9E 4A FF F5 80 C4  h..QY....*.J....
+0020: 63 44 3E D2 3F B3 B2 E6   0F C8 E2 6E B6 C5 46 93  cD>.?......n..F.
+0030: BB 65 61 30 87 44 94 10   14 10 3F 2A 72 23 EB 42  .ea0.D....?*r#.B
+0040: F0 EC 1F AC 86 7F 95 CD   35 3A 66 B8 61 CF 97 37  ........5:f.a..7
+0050: 44 C6 B7 F4 C1 D2 8D 1A   44 1B 85 BA 86 A7 2C 01  D.......D.....,.
+0060: 2C 41 07 6C 85 73 C8 DC   AC A5 28 E4 04 C3 BA 18  ,A.l.s....(.....
+0070: 6B AF 78 A6 D4 EE 33 9F   B0 45 EF CE 4C E5 74 99  k.x...3..E..L.t.
+0080: 08 A5 BF 00 E2 BA C8 F7   3D AC 6C B5 FD 7C CA 23  ........=.l....#
+0090: FF EC DD DC 7E 17 78 AB   71 D0 C7 39 34 94 59 A2  ......x.q..94.Y.
+00A0: 05 D6 E2 01 09 B2 4C E3   DE DB 3E A5 5D 1A 5B 44  ......L...>.].[D
+00B0: 25 1A FA C5 64 9D E5 57   D9 22 CC 4D D0 23 C4 FC  %...d..W.".M.#..
+00C0: 7F 42 79 52 AB AA F0 BC   CA A1 65 20 FD CB FB 59  .ByR......e ...Y
+00D0: 4A B5 14 52 97 6D 60 FE   EA 55 61 0F 8A 83 EE 7C  J..R.m`..Ua.....
+00E0: A8 B0 3D 63 42 4C 5E BF   FF EB 91 02 81 A9 AC 0A  ..=cBL^.........
+00F0: 6B CB 5C 0F 88 F9 4E 32   F0 AC 5D 6C 5A 1B DD FD  k.\...N2..]lZ...
+
+]
+javax Cert length 2
+javaxCerts CN=www.cdot1.com, OU=IT, O=CDOT, ST=DELHI, C=IN issuer CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN
+javaxCerts CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN issuer CN=CA ROOT, OU=IT, O=CDOT, ST=DELHI, C=IN
+Session class: class sun.security.ssl.SSLSessionImpl
+   Cipher suite = TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+   Protocol = TLSv1.2
+   PeerPrincipal = CN=www.cdot1.com,OU=IT,O=CDOT,ST=DELHI,C=IN
+***************************************************End printSocketInfo******************************************************************
+Secure handshake Started
+HTTP Request Strucutre ***********
+GET https://192.168.126.3:9090/IN-CSE/ae1957/cnt1959?ty=4&fu=1 HTTP/1.1httpurirequest tostring() GET https://192.168.126.3:9090/IN-CSE/ae1957/cnt1959?ty=4&fu=1 HTTP/1.1
+Accept: application/vnd.onem2m-res+json
+X-M2M-Origin: S011
+X-M2M-RI: 3ae3747c-bba3-42ec-aeef-468e99bfeb0b
+X-M2M-OT: 20200214T101101
+X-M2M-RST: 20200214T101601
+X-M2M-RET: 20200214T101601
+X-M2M-OET: 20200214T101601
+X-M2M-EC: 200
+X-M2M-RVI: 2a
+
+
+START: ***********httpToOneM2MResponse:************
+
+HTTP RESPONSE:HTTP/1.1 200 OKContent-Type: application/vnd.onem2m-res+json [X-M2M-RI: 3ae3747c-bba3-42ec-aeef-468e99bfeb0b, X-M2M-RSC: 2000, X-M2M-RVI: 2a, Content-Length: 28] [Content-Length: 28,Chunked: false]
+Http Response content: [Content-Length: 28,Chunked: false]
+XM2MRsc: X-M2M-RSC: 2000
+
+
+-----------------CLIENT DESERIALIZING RESPONSE------------------------------
+
+
+HttpEntity.getContent: org.apache.http.impl.io.ContentLengthInputStream@56890e4b
+[EL Warning]: 2020-02-14 10:11:06.314--Ignoring attribute [desiredIdentifierResultType] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:06.314--Ignoring attribute [responseStatusCode] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:06.314--Ignoring attribute [assignedTokenIdentifiers] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:06.314--Ignoring attribute [contentStatus] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:06.314--Ignoring attribute [contentOffset] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:06.314--Ignoring attribute [authorSignReqInfo] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:06.314--Ignoring attribute [null] on class [AuthenticationProfile] as no Property was generated for it.
+HttpEntity
+ Payload String{
+  "m2m:uril" : [ "D99" ]
+}
+DISCOVERY LIST: [D99]
+*******SET CONTENT*********
+END: ***********httpToOneM2MResponse:************
+
+From SEND-REQUEST:  R-ID3ae3747c-bba3-42ec-aeef-468e99bfeb0b
+M2M RESPONSE STATUS CODE: 2000
+
+Response content: [D99]
+Response content classclass java.util.ArrayList
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ GENERAL ADN DELETE
+[RestHttpsCertificateBasedClient] Inside RestHttpsCertificateBasedClient
+REST HTTP CERTIFICATE BASED CLIENT
+[EL Warning]: 2020-02-14 10:11:16.603--Ignoring attribute [desiredIdentifierResultType] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:16.603--Ignoring attribute [responseStatusCode] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:16.603--Ignoring attribute [assignedTokenIdentifiers] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:16.603--Ignoring attribute [contentStatus] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:16.603--Ignoring attribute [contentOffset] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:16.603--Ignoring attribute [authorSignReqInfo] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:16.603--Ignoring attribute [null] on class [AuthenticationProfile] as no Property was generated for it.
+OPERATION: 4
+START:  ***********oneM2MToHttpRequest:************
+
+[EL Warning]: 2020-02-14 10:11:20.369--Ignoring attribute [desiredIdentifierResultType] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:20.37--Ignoring attribute [responseStatusCode] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:20.37--Ignoring attribute [assignedTokenIdentifiers] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:20.37--Ignoring attribute [contentStatus] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:20.37--Ignoring attribute [contentOffset] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:20.37--Ignoring attribute [authorSignReqInfo] on class [RequestPrimitive] as no Property was generated for it.
+[EL Warning]: 2020-02-14 10:11:20.37--Ignoring attribute [null] on class [AuthenticationProfile] as no Property was generated for it.
+
+
+-----------------CLIENT SERIALIZING REQUEST------------------------------
+
+
+TO: /S011
+URL: DELETE https://192.168.126.3:9090/S011 HTTP/1.1
+XM2M-RI: d085a3f6-69e1-4051-bcbe-c4c425b06f7cRequest Expr time: 20200214T101613
+END:  ***********oneM2MToHttpRequest:************
+
+In MyX509ExtendedTrustManager java.security.KeyStore@e680306
+TMS 0 sun.security.ssl.X509TrustManagerImpl@3d9d2bd3
+[RestHttpsCertificateBasedClient] saefIpAddress :: 192.168.126.3
+[RestHttpsCertificateBasedClient] saefPort :: 9090
+***************************************************In printSocketInfo******************************************************************
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_RSA_WITH_AES_256_CBC_SHA256
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_256_CBC_SHA256
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_256_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_128_CBC_SHA256
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_128_CBC_SHA
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_256_GCM_SHA384
+Enabled Ciphersuites TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_DHE_DSS_WITH_AES_128_GCM_SHA256
+Enabled Ciphersuites TLS_EMPTY_RENEGOTIATION_INFO_SCSV
+Supported protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+Socket class: class sun.security.ssl.SSLSocketImpl
+   Remote address = /192.168.126.3
+   Remote port = 9090
+   Local socket address = /192.168.105.196:40142
+   Local address = /192.168.105.196
+   Local port = 40142
+   Need client authentication = false
+   Want client authentication = false
+   Use client mode = true
+getsession cert [Ljava.security.cert.X509Certificate;@2d9abd21 chain [Ljavax.security.cert.X509Certificate;@63a4eba7 host 192.168.126.3 int host 9090 principal CN=www.cdot1.com, OU=IT, O=CDOT, ST=DELHI, C=IN
+Cert length 2
+cert [
+[
+  Version: V3
+  Subject: CN=www.cdot1.com, OU=IT, O=CDOT, ST=DELHI, C=IN
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 29004517019861970090249101516661648002894508855361257127144308604493070880898240006625013690565773004742781432158070630900710385263392929926135814414167666189107549830611813748725096283445487209824969178317312069598648222174604320556916887110211402743395536426987381812546414679063000197914052855660875276320635566960228678906206413028088270323047900446079763662007667324264498598511459028555046846798859146535392628878444072179957534172630438883550885582907570634094459105473142810120294265847658484306881915672971023805969932400835602622239464522304160717043041486337435228498274377315173616599166026097454977849281
+  public exponent: 65537
+  Validity: [From: Thu Sep 21 11:38:29 IST 2017,
+               To: Sat Aug 15 11:38:29 IST 2020]
+  Issuer: CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN
+  SerialNumber: [    8e225f53 b2975e76]
+
+Certificate Extensions: 5
+[1]: ObjectId: 2.16.840.1.113730.1.13 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 1F 16 1D 4F 70 65 6E   53 53 4C 20 47 65 6E 65  ....OpenSSL Gene
+0010: 72 61 74 65 64 20 43 65   72 74 69 66 69 63 61 74  rated Certificat
+0020: 65                                                 e
+
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: D2 63 6D 93 21 2A DD 5A   2E 6C 4D 10 26 BB DB 1A  .cm.!*.Z.lM.&...
+0010: 16 92 51 AE                                        ..Q.
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:false
+  PathLen: undefined
+]
+
+[4]: ObjectId: 2.5.29.17 Criticality=false
+SubjectAlternativeName [
+  DNSName: //www.cdot1.com
+]
+
+[5]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 44 D1 A3 43 AA 26 F3 81   1D A8 57 31 76 02 B8 CB  D..C.&....W1v...
+0010: 78 2A 7F 4C                                        x*.L
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 20 6B FF 4B B5 91 6D D7   A7 16 AF 56 4B 5B D9 D6   k.K..m....VK[..
+0010: BE 04 95 75 AA 44 CC 53   27 DB DF F2 FA CD 1D 49  ...u.D.S'......I
+0020: 8C 5F 96 AA F1 B5 F6 3C   D3 58 23 14 94 43 36 34  ._.....<.X#..C64
+0030: 06 78 F0 47 10 E6 89 7E   0A 21 41 23 B1 C4 4E 02  .x.G.....!A#..N.
+0040: 51 5E 75 C6 90 11 D5 4E   12 4A 29 40 C5 28 C3 31  Q^u....N.J)@.(.1
+0050: 98 EA 43 71 9A 03 1B FD   AA C8 A7 8D C4 46 57 A0  ..Cq.........FW.
+0060: C9 5B 2B D3 40 33 1E 0F   32 7B 63 56 71 DB B5 24  .[+.@3..2.cVq..$
+0070: D0 E2 65 80 A9 B3 D2 01   E5 BD 06 85 F0 43 0C 4C  ..e..........C.L
+0080: A8 84 FF 17 ED 26 63 F9   93 9B E3 6A 72 DA CB CB  .....&c....jr...
+0090: 82 DE 24 1F 6B 37 6D 48   28 66 AD 8F 44 CA C6 AF  ..$.k7mH(f..D...
+00A0: 21 EF E7 75 C3 BA F8 E9   AB 85 AE A9 8B EB 13 5D  !..u...........]
+00B0: B9 9E 0D DB 18 FA BD D2   2B 13 D7 1B F1 BB 3A 07  ........+.....:.
+00C0: 2B 2A 1E EA 10 99 84 A1   33 3E 11 14 8B 8B 9D AE  +*......3>......
+00D0: 7F 5B 79 30 83 E2 9B 02   03 48 5C B7 3D 39 FB E5  .[y0.....H\.=9..
+00E0: 2F F0 50 6E 13 21 37 79   DD A4 50 C7 06 65 71 B5  /.Pn.!7y..P..eq.
+00F0: 3B 62 CE 61 10 D1 6D A6   6A A3 B7 95 25 53 18 C1  ;b.a..m.j...%S..
+
+]
+cert [
+[
+  Version: V3
+  Subject: CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  modulus: 22459088573830172065138623946452075332484366282745162692509726313226519891309164111511110363852934862051207741500401493382991627703437472637634599833067960375791423692984767918062222812927419701966974532089073338703910051032950853797509200402164030458119017533268092365924307307085149200336473705378297647423575325895503749050236106621992064735898600004791035678681738321183275445986940808163844707059500468660037049520100497673107900254686995664972417850590702807315721998845831542192645807480569169068076774380267450322345578202742396677417433901702151242189123979374977218011419701197126577268149214149312724872307
+  public exponent: 65537
+  Validity: [From: Thu Sep 21 11:15:38 IST 2017,
+               To: Sat Aug 15 11:15:38 IST 2020]
+  Issuer: CN=CA ROOT, OU=IT, O=CDOT, ST=DELHI, C=IN
+  SerialNumber: [    8e225f53 b2975e75]
+
+Certificate Extensions: 5
+[1]: ObjectId: 2.16.840.1.113730.1.13 Criticality=false
+Extension unknown: DER encoded OCTET string =
+0000: 04 1F 16 1D 4F 70 65 6E   53 53 4C 20 47 65 6E 65  ....OpenSSL Gene
+0010: 72 61 74 65 64 20 43 65   72 74 69 66 69 63 61 74  rated Certificat
+0020: 65                                                 e
+
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 46 E7 4B 1F 06 3C 22 43   10 AF 7E 8E C8 45 02 7C  F.K..<"C.....E..
+0010: FE A3 13 9D                                        ....
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:true
+  PathLen:2147483647
+]
+
+[4]: ObjectId: 2.5.29.15 Criticality=false
+KeyUsage [
+  Key_CertSign
+  Crl_Sign
+]
+
+[5]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: D2 63 6D 93 21 2A DD 5A   2E 6C 4D 10 26 BB DB 1A  .cm.!*.Z.lM.&...
+0010: 16 92 51 AE                                        ..Q.
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 9D BD F0 2A AB 34 E1 9F   46 95 9C 23 7F A1 68 A7  ...*.4..F..#..h.
+0010: 68 8E CB 51 59 1C A7 CC   85 2A 9E 4A FF F5 80 C4  h..QY....*.J....
+0020: 63 44 3E D2 3F B3 B2 E6   0F C8 E2 6E B6 C5 46 93  cD>.?......n..F.
+0030: BB 65 61 30 87 44 94 10   14 10 3F 2A 72 23 EB 42  .ea0.D....?*r#.B
+0040: F0 EC 1F AC 86 7F 95 CD   35 3A 66 B8 61 CF 97 37  ........5:f.a..7
+0050: 44 C6 B7 F4 C1 D2 8D 1A   44 1B 85 BA 86 A7 2C 01  D.......D.....,.
+0060: 2C 41 07 6C 85 73 C8 DC   AC A5 28 E4 04 C3 BA 18  ,A.l.s....(.....
+0070: 6B AF 78 A6 D4 EE 33 9F   B0 45 EF CE 4C E5 74 99  k.x...3..E..L.t.
+0080: 08 A5 BF 00 E2 BA C8 F7   3D AC 6C B5 FD 7C CA 23  ........=.l....#
+0090: FF EC DD DC 7E 17 78 AB   71 D0 C7 39 34 94 59 A2  ......x.q..94.Y.
+00A0: 05 D6 E2 01 09 B2 4C E3   DE DB 3E A5 5D 1A 5B 44  ......L...>.].[D
+00B0: 25 1A FA C5 64 9D E5 57   D9 22 CC 4D D0 23 C4 FC  %...d..W.".M.#..
+00C0: 7F 42 79 52 AB AA F0 BC   CA A1 65 20 FD CB FB 59  .ByR......e ...Y
+00D0: 4A B5 14 52 97 6D 60 FE   EA 55 61 0F 8A 83 EE 7C  J..R.m`..Ua.....
+00E0: A8 B0 3D 63 42 4C 5E BF   FF EB 91 02 81 A9 AC 0A  ..=cBL^.........
+00F0: 6B CB 5C 0F 88 F9 4E 32   F0 AC 5D 6C 5A 1B DD FD  k.\...N2..]lZ...
+
+]
+javax Cert length 2
+javaxCerts CN=www.cdot1.com, OU=IT, O=CDOT, ST=DELHI, C=IN issuer CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN
+javaxCerts CN=subca1, OU=IT, O=CDOT, ST=DELHI, C=IN issuer CN=CA ROOT, OU=IT, O=CDOT, ST=DELHI, C=IN
+Session class: class sun.security.ssl.SSLSessionImpl
+   Cipher suite = TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+   Protocol = TLSv1.2
+   PeerPrincipal = CN=www.cdot1.com,OU=IT,O=CDOT,ST=DELHI,C=IN
+***************************************************End printSocketInfo******************************************************************
+Secure handshake Started
+HTTP Request Strucutre ***********
+DELETE https://192.168.126.3:9090/S011 HTTP/1.1httpurirequest tostring() DELETE https://192.168.126.3:9090/S011 HTTP/1.1
+Accept: application/vnd.onem2m-res+json
+X-M2M-Origin: S011
+X-M2M-RI: d085a3f6-69e1-4051-bcbe-c4c425b06f7c
+X-M2M-OT: 20200214T101113
+X-M2M-RST: 20200214T101613
+X-M2M-RET: 20200214T101613
+X-M2M-OET: 20200214T101613
+X-M2M-EC: 200
+X-M2M-RVI: 2a
+
+
+START: ***********httpToOneM2MResponse:************
+
+HTTP RESPONSE:HTTP/1.1 200 OKX-M2M-RI: d085a3f6-69e1-4051-bcbe-c4c425b06f7c [X-M2M-RSC: 2002, X-M2M-RVI: 2a] [Chunked: false]
+Http Response content: [Chunked: false]
+XM2MRsc: X-M2M-RSC: 2002
+
+
+-----------------CLIENT DESERIALIZING RESPONSE------------------------------
+
+
+HttpEntity.getContent: org.apache.http.impl.io.IdentityInputStream@373387b3
+END: ***********httpToOneM2MResponse:************
+
+From SEND-REQUEST:  R-IDnull
+M2M RESPONSE STATUS CODE: 2002
+********Response content is empty************
+]]></system-out>
+    <system-err><![CDATA[java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:983)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:940)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.read(SessionInputBufferImpl.java:206)
+	at org.apache.http.impl.io.IdentityInputStream.read(IdentityInputStream.java:93)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.Reader.read(Reader.java:140)
+	at org.apache.http.util.EntityUtils.toString(EntityUtils.java:227)
+	at org.apache.http.util.EntityUtils.toString(EntityUtils.java:308)
+	at cdot.onem2m.protocolBinding.http.mapping.HttpOneM2MConverter.httpToOneM2MResponse(HttpOneM2MConverter.java:424)
+	at cdot.onem2m.protocolBinding.http.client.RestHttpsCertificateBasedClient.sendRequest(RestHttpsCertificateBasedClient.java:143)
+	at cdot.onem2m.platform.originatorActions.business.OriginatorActionsBean.execute(OriginatorActionsBean.java:218)
+	at cdot.onem2m.platform.originatorActions.business.OriginatorActionsBean.execute(OriginatorActionsBean.java:356)
+	at discovery.TP_oneM2M_CSE_DIS_011.afterEachSetup(TP_oneM2M_CSE_DIS_011.java:169)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:515)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.invokeMethodInExtensionContext(ClassTestDescriptor.java:436)
+	at org.junit.jupiter.engine.descriptor.ClassTestDescriptor.lambda$synthesizeAfterEachMethodAdapter$15(ClassTestDescriptor.java:428)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAfterEachMethods$9(TestMethodTestDescriptor.java:212)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeAllAfterMethodsOrCallbacks$13(TestMethodTestDescriptor.java:230)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAllAfterMethodsOrCallbacks(TestMethodTestDescriptor.java:228)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeAfterEachMethods(TestMethodTestDescriptor.java:211)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:118)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:59)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:131)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:107)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:136)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:107)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:136)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:72)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:107)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:52)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.junit.platform.surefire.provider.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:155)
+	at org.junit.platform.surefire.provider.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:134)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+]]></system-err>
+  </testcase>
+</testsuite>

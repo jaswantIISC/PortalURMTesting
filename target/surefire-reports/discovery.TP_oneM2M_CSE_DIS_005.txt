@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: discovery.TP_oneM2M_CSE_DIS_005
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 12.835 s <<< FAILURE! - in discovery.TP_oneM2M_CSE_DIS_005
+TP_oneM2M_CSE_DIS_005_DIS  Time elapsed: 12.835 s  <<< ERROR!
+java.lang.NullPointerException
+	at discovery.TP_oneM2M_CSE_DIS_005.TP_oneM2M_CSE_DIS_005_DIS(TP_oneM2M_CSE_DIS_005.java:80)
+

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: data.management.repository.TP_oneM2M_CSE_DMR_UPD_021
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 91.075 s <<< FAILURE! - in data.management.repository.TP_oneM2M_CSE_DMR_UPD_021
+TP_oneM2M_CSE_DMR_UPD_021_TS  Time elapsed: 6.217 s  <<< FAILURE!
+java.lang.AssertionError: expected:<2004> but was:<5000>
+	at data.management.repository.TP_oneM2M_CSE_DMR_UPD_021.TP_oneM2M_CSE_DMR_UPD_021_TS(TP_oneM2M_CSE_DMR_UPD_021.java:406)
+

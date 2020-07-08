@@ -1,0 +1,15 @@
+nodeId=urn:dev:ops:def017-NODE17-ADN17
+kpsaId=7C761E60300AE4E5D3E4981FA74C1917@cdot.in
+kpsa=2E22BAF9E00A9A83142626A0C2612C714F23266B78377DA933381135FA697F79
+registrarCseId=/CSE001
+registrarCseBaseResourceId=R0
+registrarCseBaseResourceName=IN-CSE
+registrarIpAddress=192.168.105.196
+saefType:PSK
+httpPskSaefPort:9091
+coapPskSaefPort:5784
+mqttPort:1983
+nodeResourceId=R61
+AE-ID:S017
+ACP-ID:null
+GROUP-ID:null

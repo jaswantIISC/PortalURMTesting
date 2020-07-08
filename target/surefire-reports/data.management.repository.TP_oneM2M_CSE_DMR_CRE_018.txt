@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: data.management.repository.TP_oneM2M_CSE_DMR_CRE_018
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.172 s - in data.management.repository.TP_oneM2M_CSE_DMR_CRE_018

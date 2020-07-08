@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: discovery.TP_oneM2M_CSE_DIS_011
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 44.154 s <<< FAILURE! - in discovery.TP_oneM2M_CSE_DIS_011
+TP_oneM2M_CSE_DIS_011_DIS  Time elapsed: 43.532 s  <<< FAILURE!
+java.lang.AssertionError: 
+	at discovery.TP_oneM2M_CSE_DIS_011.TP_oneM2M_CSE_DIS_011_DIS(TP_oneM2M_CSE_DIS_011.java:125)
+
